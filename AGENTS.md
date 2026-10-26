@@ -2,6 +2,10 @@
 
 Este fichero lo leen varias herramientas de IA (Claude carga `CLAUDE.md`, que a su vez carga este).
 
+## ¿Qué te piden?
+- **Una persona quiere que la ayudes a configurarse** (p. ej. "lee este repo y ayúdame a configurarme"): sigue la guía `configuracion/README.md` paso a paso, en español sencillo, y no modifiques este repo.
+- **Estás manteniendo el repo:** sigue las reglas de abajo.
+
 ## Regla nº 1: repositorio PÚBLICO
 - Nunca añadir claves de API, tokens, contraseñas, cookies, ficheros `.env`, certificados ni credenciales de ningún tipo.
 - Nunca añadir datos reales: personas atendidas, sus clientes, proyectos, documentos o plantillas internas, ni datos de empresas (incluido Minsait/Indra o sus clientes).

@@ -8,6 +8,7 @@ No se exporta un entorno personal: se **empaqueta el conocimiento**. Los flujos 
 
 ## Estructura
 
+- `configuracion/` — recorrido guiado que sigue el agente de la persona para dejarla configurada.
 - `docs/` — enfoque y proceso de trabajo.
 - `plantillas/` — plantillas neutras: guía de descubrimiento, skill y rutina.
 - `sectores/<sector>/` — biblioteca de skills generalizadas por sector (p. ej. `arquitectura/`). `_comun/` para las que sirven a cualquiera.
