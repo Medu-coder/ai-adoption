@@ -1,6 +1,6 @@
 # Rutas en cada herramienta
 
-Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde)** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo juntas a partir de lo más parecido.
+Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills y plugins, el 26/10/2026 (noche)** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo juntas a partir de lo más parecido.
 
 ## Claude (web y escritorio)
 | Qué | Ruta | Notas |
@@ -9,6 +9,9 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde)** con la 
 | Proyecto | **Projects / Proyectos** → crear proyecto → nombre, instrucciones y archivos | Las instrucciones del proyecto solo se aplican dentro de él. |
 | Carpeta del ordenador (solo app de escritorio) | Debajo del cuadro de texto de una conversación, opción para **añadir una carpeta**; después, permitir que Claude trabaje con sus archivos. | Incluido en los planes de pago. Permite leer y editar archivos de esa carpeta. Es distinto de las extensiones de escritorio (**Settings** → **Desktop app** → **Extensions**). El nombre exacto del botón no está en la ayuda oficial. |
 | Conectores | En la barra lateral, **Customize** → **Connectors**. Desde un chat: botón **+** → **Connectors** → **Manage connectors** → **+**. Elegir el servicio → **Connect** e iniciar sesión. | Los conectores web están disponibles en todos los planes, también el gratuito. En el móvil se pueden instalar (en beta); lo conectado en web o escritorio también funciona en el móvil. En cuentas de empresa, el administrador puede tener que habilitarlos. |
+| Creador de skills | **Settings / Configuración** → **Capabilities** → **Skills** → activar **skill-creator**. Después, pedir en el chat crear una skill para la tarea. | Viene incluido; solo hay que activarlo. |
+| Guardar y activar una skill | Guardar el archivo de skill que genera Claude. En **Settings** → **Capabilities** → **Skills** se ve la biblioteca y se activa o desactiva cada skill. | En Claude Code, las skills personales van en la carpeta `.claude/skills` de su carpeta personal. |
+| Plugins oficiales | **Customize** → **Plugins**. Catálogo oficial de Anthropic: https://claude.com/plugins | El marketplace oficial (`claude-plugins-official`) lo cura Anthropic. |
 
 ## ChatGPT
 | Qué | Ruta | Notas |
@@ -16,6 +19,17 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde)** con la 
 | Reglas básicas | Web y escritorio: **Configuración** → **Personalización** → activar **Habilitar personalización** → **Instrucciones personalizadas**. Móvil: **Configuración** → **Personalizar ChatGPT**. | Los cambios se aplican inmediatamente a todos los chats, también los existentes. Límites: 1.500 caracteres en Free/Go y 5.000 en Plus/Pro/Business/Enterprise/Education. Si la interfaz muestra otro límite, respétalo. Abrir una conversación nueva sirve como comprobación. |
 | Proyecto | **Nuevo proyecto** (barra lateral) → nombre. Instrucciones: abrir el proyecto → menú **•••** → **Configuración del proyecto**. Archivos: añadirlos como fuentes del proyecto. | Dentro del proyecto, sus instrucciones **prevalecen** sobre las personalizadas. Límite de archivos según plan (5 en gratuito, 25 en Plus). |
 | Conectores | **Configuración** → **Plugins** → elegir el servicio (o el plugin que lo incluye) → **Instalar plugin** si aparece → **Conectar** e iniciar sesión. En versiones antiguas del móvil se llama **Apps**. | La disponibilidad depende del servicio, el plan, la región y la cuenta; en cuentas de empresa, el administrador decide cuáles hay. |
+| Creador de skills | Solo en la app de escritorio, en **Work**: escribir `@skill-creator` en el chat. | En la web y el móvil no se pueden crear ni usar skills sueltas; solo las que vienen dentro de un plugin instalado. |
+| Ver sus skills | App de escritorio: **Skills** en la barra lateral. | |
+| Grabar una skill (Record & Replay) | Solo app de escritorio en Mac: activar **Work** (o elegir Codex) → **Plugins** → menú **+** → **Record a skill** → revisar el texto propuesto y enviarlo → aceptar el permiso → hacer la tarea → parar la grabación. | Necesita Computer Use activado. En cuentas de empresa puede estar desactivado. |
+| Plugins oficiales | **Plugins** en la barra lateral (web, escritorio o móvil), o **Configuración** → **Plugins**. | Algunos llevan la insignia **OpenAI Verified** (revisados por OpenAI). |
+
+## Codex (app, CLI y extensión del IDE)
+| Qué | Ruta | Notas |
+|---|---|---|
+| Creador de skills | Escribir `$skill-creator` en el chat. | Viene incluido con Codex. |
+| Guardar una skill | Carpeta `.agents/skills` de su carpeta personal (una carpeta por skill con su `SKILL.md`). | Codex detecta los cambios solo; si no aparece, reiniciar Codex. |
+| Plugins oficiales | App: **Plugins** (apartado de curados por OpenAI). CLI: `/plugins`. | |
 
 ## Otras herramientas (Gemini, Copilot…)
 Sin rutas revisadas todavía. Usa la ayuda oficial de la herramienta si puedes consultarla; si no, describe la ruta de forma aproximada y dilo.
@@ -27,3 +41,10 @@ Sin rutas revisadas todavía. Usa la ayuda oficial de la herramienta si puedes c
 - ChatGPT, instrucciones personalizadas: https://help.openai.com/en/articles/8096356
 - ChatGPT, proyectos: https://help.openai.com/en/articles/10169521
 - ChatGPT, apps conectadas: https://help.openai.com/en/articles/11487775
+- Claude, crear una skill conversando: https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation
+- Claude, buenas prácticas para escribir skills: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+- Claude, marketplaces oficiales de plugins: https://code.claude.com/docs/en/discover-plugins
+- ChatGPT y Codex, crear skills (incluye buenas prácticas): https://learn.chatgpt.com/docs/build-skills
+- ChatGPT y Codex, Record & Replay: https://learn.chatgpt.com/docs/extend/record-and-replay
+- ChatGPT, plugins: https://help.openai.com/en/articles/20001256
+- Codex, plugins: https://developers.openai.com/codex/plugins

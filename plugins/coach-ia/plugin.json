@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "coach-ia",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Coach IA: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo, con la herramienta que prefieras.",
   "author": { "name": "Medu-coder" },
   "repository": "https://github.com/Medu-coder/ai-adoption",
@@ -10,7 +10,7 @@
       "interface": {
         "displayName": "Coach IA",
         "shortDescription": "Empieza a usar la IA",
-        "longDescription": "Te acompaña paso a paso para configurar tus reglas personales, organizar un proyecto opcional y conectar los servicios que uses, según las capacidades de tu herramienta de IA.",
+        "longDescription": "Te acompaña paso a paso para configurar tus reglas personales, organizar un proyecto opcional, conectar los servicios que uses y crear tu primera skill para una tarea repetitiva, según las capacidades de tu herramienta de IA.",
         "developerName": "Medu-coder",
         "category": "Productivity",
         "defaultPrompt": "Quiero empezar con el Coach IA."
