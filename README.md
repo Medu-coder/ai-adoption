@@ -3,7 +3,7 @@
 Plugins para empezar a usar la IA en tu día a día y tu trabajo, **con la herramienta que prefieras** (Claude, ChatGPT/Codex…).
 
 ## Coach IA
-Te guía paso a paso: deja tu IA configurada (tus reglas, un proyecto y tus servicios conectados) y te ayuda a ponerla en práctica. No necesitas conocimientos técnicos y nunca te pedirá contraseñas en el chat.
+Te guía paso a paso: deja tu IA configurada (tus reglas, un proyecto y tus servicios conectados) y te ayuda a crear tu primera skill para una tarea repetitiva de tu trabajo. No necesitas conocimientos técnicos y nunca te pedirá contraseñas en el chat.
 
 ### Cómo empezar
 Abre tu herramienta de IA y escribe:
@@ -24,10 +24,10 @@ El repositorio mantiene un único Coach compartido: un manifiesto portable `plug
 ## Plugins disponibles
 | Plugin | Para quién | Qué hace |
 |---|---|---|
-| `coach-ia` | Cualquiera | Configuración guiada y acompañamiento para usar la IA en el trabajo |
+| `coach-ia` | Cualquiera | Configuración guiada y primera skill para usar la IA en el trabajo |
 
 ## Compatibilidad y pruebas
 
-La versión 0.1.5 se ha probado con Codex CLI en perfiles temporales, tanto con el marketplace nativo de OpenAI como con el compatible con Claude. Consulta [el alcance, los límites y cómo repetir la prueba](docs/compatibilidad-openai.md). La interfaz de ChatGPT todavía no se ha probado de extremo a extremo.
+La instalación se probó con la versión 0.1.5 en Codex CLI, en perfiles temporales, tanto con el marketplace nativo de OpenAI como con el compatible con Claude. Consulta [el alcance, los límites y cómo repetir la prueba](docs/compatibilidad-openai.md). La interfaz de ChatGPT todavía no se ha probado de extremo a extremo.
 
 Todo es público y genérico: aquí no hay datos de nadie, y el kit no recoge ni envía tus datos a ningún servidor propio. Tu herramienta de IA y los servicios que conectes tratan tus datos según sus propias condiciones.

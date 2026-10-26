@@ -9,8 +9,9 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills y
 | Proyecto | **Projects / Proyectos** → crear proyecto → nombre, instrucciones y archivos | Las instrucciones del proyecto solo se aplican dentro de él. |
 | Carpeta del ordenador (solo app de escritorio) | Debajo del cuadro de texto de una conversación, opción para **añadir una carpeta**; después, permitir que Claude trabaje con sus archivos. | Incluido en los planes de pago. Permite leer y editar archivos de esa carpeta. Es distinto de las extensiones de escritorio (**Settings** → **Desktop app** → **Extensions**). El nombre exacto del botón no está en la ayuda oficial. |
 | Conectores | En la barra lateral, **Customize** → **Connectors**. Desde un chat: botón **+** → **Connectors** → **Manage connectors** → **+**. Elegir el servicio → **Connect** e iniciar sesión. | Los conectores web están disponibles en todos los planes, también el gratuito. En el móvil se pueden instalar (en beta); lo conectado en web o escritorio también funciona en el móvil. En cuentas de empresa, el administrador puede tener que habilitarlos. |
-| Creador de skills | **Settings / Configuración** → **Capabilities** → **Skills** → activar **skill-creator**. Después, pedir en el chat crear una skill para la tarea. | Viene incluido; solo hay que activarlo. |
-| Guardar y activar una skill | Guardar el archivo de skill que genera Claude. En **Settings** → **Capabilities** → **Skills** se ve la biblioteca y se activa o desactiva cada skill. | En Claude Code, las skills personales van en la carpeta `.claude/skills` de su carpeta personal. |
+| Requisito para skills | Planes individuales (Free, Pro, Max): **Settings / Configuración** → **Capabilities** → activar **Code execution and file creation**. Team y Enterprise: lo activa el propietario en **Organization settings** → **Skills**. | Sin la ejecución de código, las skills no funcionan (aparecen en gris). Disponible en todos los planes. |
+| Creador de skills | En la barra lateral, **Customize / Personalización** → **Skills** → activar **skill-creator**. Después, pedir en el chat crear una skill para la tarea. | Viene incluido; solo hay que activarlo. |
+| Guardar y activar una skill | Guardar el archivo de skill que genera Claude. En **Customize / Personalización** → **Skills** se ve la biblioteca y se activa o desactiva cada skill. | En Claude Code, las skills personales van en la carpeta `.claude/skills` de su carpeta personal. |
 | Plugins oficiales | **Customize** → **Plugins**. Catálogo oficial de Anthropic: https://claude.com/plugins | El marketplace oficial (`claude-plugins-official`) lo cura Anthropic. |
 
 ## ChatGPT
@@ -41,6 +42,7 @@ Sin rutas revisadas todavía. Usa la ayuda oficial de la herramienta si puedes c
 - ChatGPT, instrucciones personalizadas: https://help.openai.com/en/articles/8096356
 - ChatGPT, proyectos: https://help.openai.com/en/articles/10169521
 - ChatGPT, apps conectadas: https://help.openai.com/en/articles/11487775
+- Claude, usar skills (planes y requisitos): https://support.claude.com/en/articles/12512180
 - Claude, crear una skill conversando: https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation
 - Claude, buenas prácticas para escribir skills: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 - Claude, marketplaces oficiales de plugins: https://code.claude.com/docs/en/discover-plugins

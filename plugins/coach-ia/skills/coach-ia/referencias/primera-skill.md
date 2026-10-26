@@ -4,9 +4,11 @@
 
 Trabaja solo con la plataforma en la que estás funcionando: no guíes para crear skills en otra herramienta. Usa lo que ya sabes de su herramienta, superficie (web, escritorio, móvil) y plan; si no lo sabes, pregúntalo una vez. Todo el módulo se hace en esta conversación.
 
+Si no ha hecho el módulo 1, antes de empezar pregunta, de una en una, a qué se dedica y si su empresa o sus clientes tienen alguna norma sobre usar IA con sus datos (y tenlas en cuenta). Ofrécele también hacer antes el módulo 1, sin insistir.
+
 ## Recorrido
-1. **Ofrece el módulo:** "Siguiente paso opcional: crear tu primera skill. Una skill es una tarea que la IA aprende a hacer siempre igual, sin que se lo expliques cada vez. Buscamos una tarea repetitiva de tu trabajo y la creamos. ¿Empezamos o lo dejamos para otro día?"
-2. **Comprueba que su superficie lo permite** (ver "Dónde se puede"). Si no, díselo e indica dónde sí podría hacerlo; aun así, haz el paso 3 (conectar sus herramientas) y cierra el módulo con la skill como pendiente.
+1. **Ofrece el módulo:** "Siguiente paso opcional: crear tu primera skill. Una skill es una tarea que la IA aprende a hacer siempre igual, sin que se lo expliques cada vez. Primero conectamos las demás herramientas que uses y luego buscamos una tarea repetitiva de tu trabajo para convertirla en skill. ¿Empezamos o lo dejamos para otro día?"
+2. **Comprueba qué permite su superficie** (ver "Dónde se puede"). Si no admite skills propias, díselo e indica dónde sí podría crearlas; aun así, haz los pasos 3 a 6 (conectar sus herramientas, encontrar la tarea y buscar si hay una skill hecha que pueda instalar). Si no hay ninguna, cierra el módulo con la creación de la skill como pendiente. Si su plataforma exige activar algo antes (por ejemplo, la ejecución de código en Claude), díselo aquí.
 3. **Sus herramientas del día a día.** Pregunta una sola vez: "Además de lo que ya conectamos, ¿qué programas o servicios usas en tu día a día? Por ejemplo, de diseño, presupuestos, gestión de clientes o de tu profesión."
    - Busca cada una en el directorio oficial de conectores y plugins de tu plataforma, igual que en "Buscar skills hechas". Solo resultados oficiales; no inventes.
    - Enséñale el resultado en una tabla: herramienta, si hay conector o plugin, y qué permitiría hacer.
@@ -18,7 +20,7 @@ Trabaja solo con la plataforma en la que estás funcionando: no guíes para crea
    - ¿Cuánto tiempo te lleva?
 
    Si no se le ocurre ninguna, propón 2–3 ejemplos de su profesión (la conoces por sus reglas), aprovechando las herramientas que tiene conectadas. Una buena candidata se hace a menudo, sigue los mismos pasos, da un resultado parecido y tiene poco riesgo si sale mal. Si propone varias, que elija una. Si ninguna encaja, díselo y cierra el módulo sin crear nada.
-5. **Comprueba que es una skill.** Si en realidad es cómo quiere que respondas en general, ofrece añadirlo a sus reglas o a su proyecto y termina ahí.
+5. **Comprueba que es una skill.** Si en realidad es cómo quiere que respondas en general, ofrece añadirlo a sus reglas o a su proyecto y, después, buscar otra tarea. Si no quiere, cierra el módulo.
 6. **Busca si ya existe** (ver "Buscar skills hechas"). Si hay alguna que encaje bien, enséñale hasta 5, con una línea cada una sobre qué hace. Si elige una, ayúdala a instalarla y salta a la prueba (paso 10). Si ninguna encaja bien, díselo y sigue.
 7. **Activa el creador oficial** de su plataforma (ruta en [`rutas.md`](rutas.md)). Si lo tiene que activar ella, dale los pasos en una lista.
 8. **Describe la tarea con un caso real.** Pide un ejemplo de una vez anterior: qué recibe, qué pasos sigue, qué entrega y qué hace que el resultado sea bueno. Pídele que quite los datos personales de clientes o terceros. Resume lo que te cuente y enséñaselo hasta que lo apruebe.
@@ -31,7 +33,7 @@ Trabaja solo con la plataforma en la que estás funcionando: no guíes para crea
 ## Dónde se puede
 | Plataforma | Skills propias | Creador oficial |
 |---|---|---|
-| Claude (web y escritorio) | Sí | skill-creator, que se activa en la configuración de skills |
+| Claude (web y escritorio) | Sí, en todos los planes, con la ejecución de código activada | skill-creator, que se activa en la sección de skills |
 | Claude Code | Sí | skill-creator, si está instalado; si no, la guía oficial |
 | ChatGPT (app de escritorio) y Codex | Sí | `@skill-creator` en ChatGPT Work; `$skill-creator` en Codex |
 | ChatGPT web y móvil | No: solo las que vienen dentro de plugins | — |
