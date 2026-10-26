@@ -17,7 +17,7 @@ Muestra solo estos módulos (los únicos disponibles por ahora), marcando como �
 | # | Módulo | Qué hace | Instrucciones |
 |---|---|---|---|
 | 1 | Configuración inicial | Deja su IA lista: sus reglas básicas, un proyecto (opcional) y sus servicios conectados | Sigue en orden los pasos de `referencias/configuracion/`: `00-herramienta.md`, `01-reglas-basicas.md`, `02-proyecto.md`, `03-conectores.md`, `04-cierre.md` |
-| 2 | Mi primera skill | Busca con ella una tarea repetitiva de su trabajo y la convierte en una skill (o instala una ya hecha) | `referencias/primera-skill.md` |
+| 2 | Mi primera skill | Conecta las demás herramientas que usa y convierte una tarea repetitiva de su trabajo en una skill (o instala una ya hecha) | `referencias/primera-skill.md` |
 
 Lee cada fichero entero antes de empezar su paso.
 

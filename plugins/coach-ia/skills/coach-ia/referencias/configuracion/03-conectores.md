@@ -22,11 +22,10 @@ Pregunta una sola vez: "¿Tu empresa o tus clientes tienen alguna norma sobre us
 | 6 | Mensajería | Slack, Teams, WhatsApp, Telegram… | Leer el último mensaje de un canal que ella indique |
 | 7 | Reuniones | Zoom, Meet, Teams, transcriptores | Encontrar la última reunión |
 | 8 | Archivos del ordenador | Una carpeta concreta (solo apps de escritorio) | Listar el contenido de la carpeta |
-| 9 | Opcionales | CRM, diseño (Canva, Figma) | Según el caso |
 
 - **Mensajería:** muchas apps personales (como WhatsApp) no tienen conector. Díselo y propón copiar el mensaje o pegar una captura cuando lo necesite.
 - **Carpeta del ordenador:** mejor una carpeta concreta que toda su carpeta personal. Si puedes pedir acceso, hazlo y avísale de que verá un aviso para permitirlo; si no, guíala para añadirla desde la app.
-- Los programas específicos de su profesión no van aquí.
+- Otros programas que use (diseño, gestión de clientes, los de su profesión…) no van aquí: se ven en el módulo 2.
 
 ## Cómo ofrecer el conector (primera opción posible)
 1. **Tarjeta o botón de conexión en el chat**, si puedes buscar el conector en el directorio de tu app y mostrárselo para que pulse "Conectar". En Claude: búscalo en el directorio y muéstralo como sugerencia de conexión.
