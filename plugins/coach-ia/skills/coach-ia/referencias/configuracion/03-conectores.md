@@ -20,7 +20,7 @@
 | 7 | Reuniones | Zoom, Meet, Teams, transcriptores | Encontrar la última reunión |
 | 8 | Archivos del ordenador | Una carpeta concreta (solo apps de escritorio) | Listar el contenido de la carpeta |
 
-- **Mensajería:** muchas apps personales (como WhatsApp) no tienen conector. Díselo y propón copiar el mensaje o pegar una captura cuando lo necesite.
+- **Mensajería:** muchas apps personales (como WhatsApp) no tienen conector. Si la usa para trabajar, sigue [`../apps-sin-conector.md`](../apps-sin-conector.md) después del paso de uso del ordenador (o ahora, si su herramienta tiene navegador). Si no la necesita para trabajar, sáltala.
 - **Carpeta del ordenador:** mejor una carpeta concreta que toda su carpeta personal. Si puedes pedir acceso, hazlo y avísale de que verá un aviso para permitirlo; si no, guíala para añadirla desde la app.
 - Otros programas que use (diseño, gestión de clientes, los de su profesión…) no van aquí: se ven en el módulo 2. Para apps sin conector, el paso siguiente (uso del ordenador) ofrece otra vía.
 
