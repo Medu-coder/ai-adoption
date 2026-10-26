@@ -7,7 +7,7 @@
 2. Si no usa nada de esa categoría o no quiere conectarlo, sáltala sin insistir.
 3. **Ofrece el conector** de la forma más directa posible (ver abajo).
 4. **Espera** a que confirme que ha iniciado sesión y dado permiso.
-5. **Comprueba** con la prueba de la tabla. Si falla justo después de conectar, puede hacer falta una conversación nueva para que el conector esté disponible; explícaselo. Si sigue fallando, apúntalo como pendiente.
+5. **Comprueba** con la prueba de la tabla: avísale de qué vas a consultar y hazlo, sin pedir otra confirmación. Si falla justo después de conectar, puede hacer falta una conversación nueva para que el conector esté disponible; explícaselo. Si sigue fallando, apúntalo como pendiente.
 
 | # | Categoría | Opciones habituales | Prueba inofensiva |
 |---|---|---|---|
@@ -28,7 +28,7 @@
 ## Cómo ofrecer el conector (primera opción posible)
 1. **Tarjeta o botón de conexión en el chat**, si puedes buscar el conector en el directorio de tu app y mostrárselo para que pulse "Conectar". En Claude: búscalo en el directorio y muéstralo como sugerencia de conexión.
 2. **Enlace directo** a la pantalla donde se conecta.
-3. **Instrucciones escritas** (normalmente en "Conectores", "Aplicaciones" o "Integraciones" de la configuración). Si no sabes la ruta exacta, dilo; no la inventes.
+3. **Instrucciones escritas** con la ruta de [`rutas.md`](rutas.md). Si tu herramienta no está ahí, dilo y descríbela de forma aproximada (suele estar en "Conectores", "Apps" o "Integraciones" de la configuración); no la inventes.
 
 Si no hay conector para lo que usa, díselo y propón una alternativa (por ejemplo, subir el archivo al chat).
 

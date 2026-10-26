@@ -4,7 +4,7 @@
 
 ## Recorrido
 1. **Explica qué aporta.** Un proyecto es un espacio para un tema concreto de su trabajo, con:
-   - instrucciones propias del tema, que se suman a sus reglas básicas;
+   - instrucciones propias del tema, que se añaden a sus reglas básicas (en algunas herramientas, como ChatGPT, dentro del proyecto mandan las del proyecto si chocan);
    - documentos de referencia siempre a mano (normativa, plantillas, tarifas…);
    - las conversaciones del tema agrupadas.
 
@@ -15,14 +15,14 @@
    - ¿Para qué vas a usar este proyecto? ¿Qué tareas harás en él?
    - ¿Qué debe tener siempre en cuenta la IA en este tema (criterios, normas, documentos)?
 
-   Redacta pocas líneas **solo de ese tema**, sin repetir ni contradecir sus reglas básicas (si algo choca, pregúntale cuál manda). Enséñaselas y ajústalas hasta que las apruebe. Ejemplo (de otra profesión):
+   Redacta pocas líneas **solo de ese tema**, sin repetir sus reglas básicas y, sobre todo, **sin contradecirlas**, porque dentro del proyecto podrían prevalecer. Si algo del tema choca con ellas, pregúntale cuál quiere que mande y refléjalo. Enséñaselas y ajústalas hasta que las apruebe. Ejemplo (de otra profesión):
    ```
    - Este proyecto es para preparar las clases de 2º de bachillerato.
    - Ayúdame con ejercicios, exámenes y correcciones.
    - Usa como referencia el temario adjunto.
    ```
 5. **Documentos:** pregunta cuáles quiere añadir. Solo lo que acepte que la IA consulte. Si llevan datos personales de terceros (clientes, alumnos, empleados…), mejor una versión sin ellos; si no la tiene preparada, propón añadir ese documento más adelante.
-6. **Crearlo:**
+6. **Crearlo** (ruta exacta en [`rutas.md`](rutas.md)):
 
 | Herramienta | Cómo | Quién |
 |---|---|---|

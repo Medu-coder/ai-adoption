@@ -1,6 +1,6 @@
 # Paso 1 — Reglas básicas
 
-**Objetivo:** unas instrucciones permanentes **de la persona** (no de un proyecto) para que la IA sepa siempre quién es y cómo quiere que trabaje. Se aplican en todas sus conversaciones.
+**Objetivo:** unas instrucciones permanentes **de la persona** (no de un proyecto) para que la IA sepa quién es y cómo quiere que trabaje en todas sus conversaciones. (Dentro de un proyecto, algunas herramientas dan prioridad a las instrucciones del proyecto; por eso el paso 2 cuida que no las contradigan.)
 
 ## Recorrido
 1. **Explica para qué sirve** en una frase: "Vamos a escribir unas reglas cortas para que no tengas que repetirme quién eres y cómo te gusta que te responda."
@@ -44,6 +44,8 @@ Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), o
 ```
 
 ## Dónde se guardan (nivel usuario, nunca en un proyecto)
+Ruta exacta en los menús: [`rutas.md`](rutas.md).
+
 | Herramienta | Dónde | Quién lo guarda |
 |---|---|---|
 | Claude (apps web, escritorio, móvil) | Preferencias o instrucciones personales del perfil, en la configuración | Ella, con tu guía |
