@@ -14,7 +14,7 @@
    - ¿Hay información que deba tratar con especial cuidado (por ejemplo, datos de clientes)?
 4. **Redacta el texto** con la plantilla, sin pasar de unas 20 líneas. Integra lo que ya tenía y quiera conservar. Si algo coincide con una regla por defecto, fusiónalo en una línea. Quita los apartados que queden vacíos.
 5. **Enséñale el texto completo** y explica en una frase por qué vienen por defecto las reglas de "Cómo trabajar conmigo". En ese mismo mensaje, avísale de que este texto **sustituirá** a sus reglas actuales (ya incluye lo que quiso conservar), de modo que al aprobarlo aprueba también la sustitución. Ajusta y vuelve a enseñarlo entero hasta que lo apruebe. Si pide quitar una regla por defecto, recuérdale en una frase para qué sirve y quítala sin insistir.
-6. **Guárdalo** en el sitio de sus reglas de usuario, sustituyendo lo anterior. Si puedes escribirlo tú, dile dónde y hazlo cuando confirme. Si no, dale el texto listo para copiar y guíala hasta pegarlo y guardarlo.
+6. **Guárdalo** en el sitio de sus reglas de usuario, sustituyendo lo anterior. Si puedes escribirlo tú, dile dónde y hazlo cuando confirme. Si no, guíala para copiar el último texto que aprobó (no lo vuelvas a mostrar si acabas de enseñarlo) y pegarlo y guardarlo.
 7. **Comprueba:** que abra una conversación nueva fuera de cualquier proyecto, pregunte "¿Qué sabes de mí y de cómo quiero que me respondas?" y **vuelva a esta conversación** para contarte la respuesta y seguir con la configuración. Si no refleja las reglas, revisad juntos que se guardaron en el sitio correcto y repetid.
 
 Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), ofrece actualizar estas reglas igual: enseñar el cambio, confirmar y guardar.

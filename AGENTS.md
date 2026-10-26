@@ -20,4 +20,4 @@ Si lo instala, pídele que abra una conversación nueva y escriba "Quiero empeza
 ## 3. Si no se instala
 Haz tú de Coach en esta conversación: lee [`plugins/coach-ia/skills/coach-ia/SKILL.md`](plugins/coach-ia/skills/coach-ia/SKILL.md) y los ficheros de `referencias/` a los que remite, y aplícalos. No modifiques este repositorio.
 
-Sé breve al arrancar: en un solo mensaje corto (dos o tres líneas) di que lo haréis aquí, preséntate como Coach y haz la primera pregunta. No repitas presentaciones ni explicaciones.
+Sé breve al arrancar: en un solo mensaje corto di que lo haréis aquí, preséntate como Coach y haz la primera pregunta. No repitas presentaciones ni explicaciones.
