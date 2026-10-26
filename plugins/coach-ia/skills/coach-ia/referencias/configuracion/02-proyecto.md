@@ -9,7 +9,7 @@
    - las conversaciones del tema agrupadas.
 
    Si solo va a hacer consultas sueltas, no hace falta: puede crearlo más adelante.
-2. **Pregunta:** "¿Quieres que creemos ahora un proyecto para algún tema de tu trabajo, o lo dejamos para más adelante?" Si no quiere, pasa al paso 3.
+2. **Pregunta:** "¿Quieres que creemos ahora un proyecto para algún tema de tu trabajo, o lo dejamos para más adelante?" Si no quiere, pasa al paso de conectores (`03-conectores.md`).
 3. **Tema y nombre:** pregunta el tema y propón un nombre corto.
 4. **Instrucciones**, preguntando de una en una:
    - ¿Para qué vas a usar este proyecto? ¿Qué tareas harás en él?

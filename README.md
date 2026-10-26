@@ -15,7 +15,7 @@ El asistente te preguntará qué herramienta usas y, si se puede, te propondrá 
 Si prefieres instalarlo tú:
 - **Claude:** Customize → Plugins → Add marketplace → `Medu-coder/ai-adoption` → instalar **Coach IA** → activar **Sync automatically**.
 - **Claude Code:** `/plugin install coach-ia --marketplace Medu-coder/ai-adoption`
-- **ChatGPT / Codex:** en la app de escritorio, ejecuta `codex plugin marketplace add Medu-coder/ai-adoption`, reinicia e instala **Coach IA** desde el directorio de plugins.
+- **ChatGPT / Codex (app de escritorio):** ejecuta en la terminal de tu ordenador `codex plugin marketplace add Medu-coder/ai-adoption` (o pide al asistente de la app que lo haga), reinicia la app e instala **Coach IA** desde el directorio de plugins.
 
 ## Plugins disponibles
 | Plugin | Para quién | Qué hace |

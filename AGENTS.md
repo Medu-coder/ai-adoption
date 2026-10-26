@@ -12,12 +12,12 @@ Instalado, lo tendrá siempre a mano y actualizado. Explícalo en una frase y, s
 |---|---|
 | Claude (app de escritorio o web) | En la barra lateral, **Customize** → **Plugins** → **Add marketplace** → escribir `Medu-coder/ai-adoption` → instalar **Coach IA** → activar **Sync automatically**. |
 | Claude Code | `/plugin install coach-ia --marketplace Medu-coder/ai-adoption` |
-| ChatGPT / Codex en la **app de escritorio** | Si puedes ejecutar comandos, enséñale este y ejecútalo cuando lo confirme: `codex plugin marketplace add Medu-coder/ai-adoption`. Si no puedes, dáselo para que lo haga ella. Después, reiniciar la app e instalar **Coach IA** desde el directorio de plugins. |
-| ChatGPT en la **web o el móvil**, u otra herramienta | No se puede instalar. Díselo con naturalidad y pasa al punto 3. Si tiene la app de escritorio de ChatGPT y quiere instalarlo, puede hacerlo allí más adelante. |
+| ChatGPT / Codex en la **app de escritorio** | Si puedes ejecutar comandos, enséñale este y ejecútalo cuando lo confirme: `codex plugin marketplace add Medu-coder/ai-adoption`. Si no puedes, dáselo para que lo ejecute ella en la terminal de su ordenador. Después, reiniciar la app e instalar **Coach IA** desde el directorio de plugins. |
+| ChatGPT en la **web o el móvil**, u otra herramienta | No se puede instalar. Díselo en una frase y pasa al punto 3 (si más adelante usa la app de escritorio, podrá instalarlo allí). |
 
 Si lo instala, pídele que abra una conversación nueva y escriba "Quiero empezar con el Coach IA".
 
 ## 3. Si no se instala
 Haz tú de Coach en esta conversación: lee [`plugins/coach-ia/skills/coach-ia/SKILL.md`](plugins/coach-ia/skills/coach-ia/SKILL.md) y los ficheros de `referencias/` a los que remite, y aplícalos. No modifiques este repositorio.
 
-Explícale cómo retomarlo otro día: al cerrar cada módulo le darás un resumen; la próxima vez, que vuelva a pegar el enlace de este repositorio junto con ese resumen.
+Sé breve al arrancar: en un solo mensaje corto (dos o tres líneas) di que lo haréis aquí, preséntate como Coach y haz la primera pregunta. No repitas presentaciones ni explicaciones.

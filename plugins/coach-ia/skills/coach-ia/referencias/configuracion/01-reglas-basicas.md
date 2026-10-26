@@ -12,9 +12,9 @@
    - ¿Te gustan las listas y tablas, o prefieres texto?
    - ¿Hay algo que nunca deba hacer o que te moleste de cómo responde la IA?
    - ¿Hay información que deba tratar con especial cuidado (por ejemplo, datos de clientes)?
-4. **Redacta el texto** con la plantilla, sin pasar de unas 20 líneas. Integra lo que ya tenía y quiera conservar. Si algo coincide con una regla por defecto, fusiónalo en una línea.
-5. **Enséñale el texto completo** y explica en una frase por qué vienen por defecto las reglas de "Cómo trabajar conmigo". Ajusta y vuelve a enseñarlo entero hasta que lo apruebe. Si pide quitar una regla por defecto, recuérdale en una frase para qué sirve y quítala sin insistir.
-6. **Guárdalo** en el sitio de sus reglas de usuario. Explícale que el texto nuevo **sustituye** al anterior (ya incluye lo que quiso conservar); al aprobarlo, aprueba también esa sustitución. Si puedes escribirlo tú, dile dónde y hazlo cuando confirme. Si no, dale el texto listo para copiar y guíala hasta pegarlo y guardarlo.
+4. **Redacta el texto** con la plantilla, sin pasar de unas 20 líneas. Integra lo que ya tenía y quiera conservar. Si algo coincide con una regla por defecto, fusiónalo en una línea. Quita los apartados que queden vacíos.
+5. **Enséñale el texto completo** y explica en una frase por qué vienen por defecto las reglas de "Cómo trabajar conmigo". En ese mismo mensaje, avísale de que este texto **sustituirá** a sus reglas actuales (ya incluye lo que quiso conservar), de modo que al aprobarlo aprueba también la sustitución. Ajusta y vuelve a enseñarlo entero hasta que lo apruebe. Si pide quitar una regla por defecto, recuérdale en una frase para qué sirve y quítala sin insistir.
+6. **Guárdalo** en el sitio de sus reglas de usuario, sustituyendo lo anterior. Si puedes escribirlo tú, dile dónde y hazlo cuando confirme. Si no, dale el texto listo para copiar y guíala hasta pegarlo y guardarlo.
 7. **Comprueba:** que abra una conversación nueva fuera de cualquier proyecto, pregunte "¿Qué sabes de mí y de cómo quiero que me respondas?" y **vuelva a esta conversación** para contarte la respuesta y seguir con la configuración. Si no refleja las reglas, revisad juntos que se guardaron en el sitio correcto y repetid.
 
 Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), ofrece actualizar estas reglas igual: enseñar el cambio, confirmar y guardar.
@@ -40,7 +40,7 @@ Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), o
 - [Lo que no debe hacer nunca, si no está ya cubierto arriba.]
 
 ## Cuidado con
-- [Datos de clientes u otra información sensible: cómo tratarla.]
+- [Qué información cuidar y cómo. Si solo dice qué datos, usa: «no los repitas ni los compartas si no hace falta para la tarea».]
 ```
 
 ## Dónde se guardan (nivel usuario, nunca en un proyecto)
