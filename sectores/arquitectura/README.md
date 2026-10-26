@@ -1,3 +1,3 @@
 # Arquitectura
 
-Skills generalizadas para profesionales de la arquitectura. Solo versiones genéricas con ejemplos ficticios.
+Habilidades (skills) para profesionales de la arquitectura, listas para instalar en tu herramienta de IA.

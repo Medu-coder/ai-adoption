@@ -1,18 +1,16 @@
 # AI Adoption
 
-Kit público para ayudar a personas y empresas a adoptar la IA en su día a día y en su trabajo, **con la herramienta de IA que cada uno prefiera** (Claude, ChatGPT, Gemini, Copilot…).
+Configuración guiada para empezar a usar la IA en tu día a día y en tu trabajo, **con la herramienta de IA que prefieras** (Claude, ChatGPT, Gemini, Copilot…).
 
-## Idea
+## Cómo empezar
+Abre tu herramienta de IA y escribe:
 
-No se exporta un entorno personal: se **empaqueta el conocimiento**. Los flujos de trabajo (skills y rutinas) se escriben de forma neutra, se adaptan a la herramienta de cada persona y se instalan en **su propia cuenta**, con **sus propias credenciales**. Además, cada persona queda capacitada para crear sus propias skills y rutinas.
+> Lee https://github.com/Medu-coder/ai-adoption y ayúdame a configurarme.
 
-## Estructura
+El asistente te guiará paso a paso. No necesitas conocimientos técnicos y nunca te pedirá contraseñas en el chat: los inicios de sesión los haces tú en las pantallas oficiales de cada servicio.
 
-- `configuracion/` — recorrido guiado que sigue el agente de la persona para dejarla configurada.
-- `docs/` — enfoque y proceso de trabajo.
-- `plantillas/` — plantillas neutras: guía de descubrimiento, skill y rutina.
-- `sectores/<sector>/` — biblioteca de skills generalizadas por sector (p. ej. `arquitectura/`). `_comun/` para las que sirven a cualquiera.
+## Qué contiene
+- `configuracion/` — los pasos de la configuración guiada.
+- `sectores/` — habilidades (skills) listas para instalar, organizadas por profesión.
 
-## ⚠️ Repositorio público: nunca secretos ni datos reales
-
-**Nunca** se suben claves, tokens, contraseñas, ficheros `.env`, datos personales ni datos de clientes. Aquí solo vive la versión **generalizada**, con datos ficticios. Lo específico de cada persona se queda en su entorno. Ver [AGENTS.md](AGENTS.md).
+Todo es público y genérico: aquí no hay datos de nadie. Tus datos se quedan en tu cuenta.
