@@ -10,8 +10,6 @@
 id_rsa*
 id_ed25519*
 credentials*.json
-*secret*
-*token*
 *.cookies
 cookies*.json
 .npmrc
@@ -29,3 +27,9 @@ private/
 node_modules/
 __pycache__/
 *.pyc
+
+# Datos reales de trabajo (red de seguridad; mejor fuera del repo)
+privado/
+clientes/
+*secret*
+*token*
