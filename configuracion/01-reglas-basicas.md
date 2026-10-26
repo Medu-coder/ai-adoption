@@ -1,19 +1,24 @@
 # Paso 1 — Reglas básicas
 
-**Objetivo:** que la IA sepa desde el principio quién es la persona y cómo quiere que trabaje con ella. Son unas pocas instrucciones permanentes que la herramienta tiene en cuenta en cada conversación.
+**Objetivo:** que la IA sepa siempre quién es la persona y cómo quiere que trabaje con ella. Son instrucciones **de la persona**, no de un proyecto concreto: se aplican en todas sus conversaciones y en cualquier proyecto que cree después.
 
-## Recorrido
-1. **Explica en una frase para qué sirve.** Ejemplo: "Vamos a escribir unas reglas cortas para que no tengas que repetirme cada vez quién eres y cómo te gusta que te responda."
-2. **Haz estas preguntas, de una en una** (la persona puede saltar cualquiera):
+## Recorrido (siempre guiado)
+1. **Explica en una frase para qué sirve.** Ejemplo: "Vamos a escribir unas reglas cortas para que no tengas que repetirme cada vez quién eres y cómo te gusta que te responda. Se aplicarán siempre, en todo lo que hagas conmigo."
+2. **Mira si ya tiene reglas.** Revisa el lugar donde se guardan en su herramienta (ver "Dónde se guardan"). Si ya hay algo, enséñaselo y pregunta si lo mantenemos, lo mejoramos o empezamos de cero.
+3. **Haz estas preguntas, de una en una** (puede saltar cualquiera):
    - ¿A qué te dedicas y en qué tipo de empresa o sector?
    - ¿En qué idioma y con qué tono quieres que te responda (cercano, formal, directo…)?
    - ¿Prefieres respuestas cortas o detalladas? ¿Te gustan las listas y tablas, o mejor texto?
    - ¿Hay algo que nunca deba hacer o que te moleste de cómo responde la IA?
    - ¿Hay información que deba tratar con especial cuidado (por ejemplo, datos de clientes)?
-3. **Redacta un borrador** con la plantilla de abajo, en lenguaje sencillo y sin pasar de unas 20 líneas.
-4. **Enséñaselo y ajústalo** hasta que la persona diga que está bien.
-5. **Guárdalo donde corresponda** en su herramienta (ver "Dónde se guardan").
-6. **Comprueba** que se aplica: pide a la persona que abra una conversación nueva y pregunte "¿Qué sabes de mí y de cómo quiero que me respondas?".
+4. **Redacta el texto** con la plantilla de abajo, en lenguaje sencillo y sin pasar de unas 20 líneas. Si ya tenía reglas que quiere mantener, intégralas.
+5. **Enséñale el texto completo y ajústalo** con lo que te pida, tantas veces como haga falta, hasta que diga que está bien.
+6. **Guárdalo** en el sitio de sus reglas de usuario:
+   - Si puedes escribir en ese fichero o configuración, dile exactamente dónde lo vas a guardar y hazlo cuando lo confirme. Si el fichero ya existía, actualízalo con el texto acordado; no borres nada que no haya pedido quitar.
+   - Si no puedes, dale el texto listo para copiar y guíale pantalla a pantalla hasta pegarlo.
+7. **Comprueba** que se aplica: pide que abra una conversación nueva (fuera de cualquier proyecto) y pregunte "¿Qué sabes de mí y de cómo quiero que me respondas?".
+
+Cada vez que más adelante la persona pida cambiar cómo quiere que trabajes ("no uses tablas", "sé más breve"…), ofrece actualizar estas reglas de la misma forma: enseñar el cambio, confirmar y guardar.
 
 ## Plantilla
 ```markdown
@@ -40,17 +45,19 @@
 ```
 Las reglas de "Cómo trabajar conmigo" se proponen por defecto porque protegen a la persona; explícaselas y quítalas solo si ella lo pide.
 
-## Dónde se guardan
-Depende de la herramienta. Usa la opción que tengas disponible y, si no conoces la ruta exacta en los menús, dilo y descríbela de forma aproximada en vez de inventarla.
+## Dónde se guardan (nivel usuario, no proyecto)
+Usa el sitio de **reglas generales de la persona** de su herramienta. No uses las instrucciones de un proyecto para esto. Si no conoces la ruta exacta en los menús, dilo y descríbela de forma aproximada en vez de inventarla.
 
 | Herramienta | Dónde |
 |---|---|
-| Claude (web, escritorio, móvil) | Instrucciones o preferencias personales en la configuración del perfil. Si trabaja dentro de un Proyecto, también en las instrucciones del proyecto. |
+| Apps de chat de Claude (web, escritorio, móvil) | Instrucciones o preferencias personales en la configuración del perfil. |
+| Claude Code | Fichero `CLAUDE.md` global del usuario, en la carpeta `.claude` de su carpeta personal. |
+| Codex | Fichero `AGENTS.md` global del usuario, en la carpeta `.codex` de su carpeta personal. |
 | ChatGPT | Instrucciones personalizadas, en el apartado de personalización. |
-| Gemini | Instrucciones de una Gem o el apartado de información y preferencias guardadas. |
-| Agentes que trabajan sobre una carpeta (Claude Code, Codex, Cursor, Copilot…) | Un fichero `AGENTS.md` en la carpeta de trabajo. Para Claude, añade además un `CLAUDE.md` con una sola línea: `@AGENTS.md` (así Claude carga el mismo fichero). |
+| Gemini | Apartado de información y preferencias guardadas. |
+| Otras (Cursor, Copilot…) | Reglas de usuario en su configuración, o el fichero global que indique su documentación. |
 
-Si tienes acceso a sus archivos, ofrece crear tú el fichero `AGENTS.md` (y `CLAUDE.md`) en la carpeta que indique, y hazlo solo cuando lo confirme. Si no, dale el texto listo para copiar y pegar, y dile dónde.
+**Si usa varias herramientas basadas en ficheros:** mantén un único fichero de reglas como original y haz que los demás lo carguen cuando la herramienta lo permita (en Claude, un `CLAUDE.md` con una sola línea `@` seguida de la ruta del fichero original). Así solo hay que actualizarlo en un sitio.
 
 ## Cierre del paso
-Resume en una línea dónde han quedado guardadas las reglas y recuerda que puede cambiarlas cuando quiera.
+Resume en una línea dónde han quedado guardadas las reglas y recuerda que puede pedirte cambiarlas cuando quiera.

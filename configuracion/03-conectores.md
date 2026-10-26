@@ -1,4 +1,4 @@
-# Paso 2 — Conectores generales
+# Paso 3 — Conectores generales
 
 **Objetivo:** que la IA pueda consultar (y más adelante, si hace falta, actuar en) las herramientas que la persona ya usa.
 
@@ -46,4 +46,4 @@ Muestra un resumen breve:
 |---|---|---|
 | Correo | … | Conectado / Pendiente / No aplica |
 
-Ofrece añadir los servicios conectados a la sección "Herramientas que uso" de sus reglas básicas (paso 1). Si tu herramienta tiene memoria o notas del proyecto, ofrece guardar ahí también este resumen (en el entorno de la persona, nunca en este repositorio).
+Ofrece añadir los servicios conectados a la sección "Herramientas que uso" de sus reglas básicas (paso 1), actualizando el fichero o las instrucciones donde quedaron guardadas, con su confirmación. Si tu herramienta tiene memoria o notas del proyecto, ofrece guardar ahí también este resumen (en el entorno de la persona, nunca en este repositorio).
