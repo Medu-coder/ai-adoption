@@ -13,7 +13,7 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde)** con la 
 ## ChatGPT
 | Qué | Ruta | Notas |
 |---|---|---|
-| Reglas básicas | Web y escritorio: **Configuración** → **Personalización** → activar **Habilitar personalización** → **Instrucciones personalizadas**. Móvil: **Configuración** → **Personalizar ChatGPT**. | Pueden aplicarse solo a conversaciones nuevas. |
+| Reglas básicas | Web y escritorio: **Configuración** → **Personalización** → activar **Habilitar personalización** → **Instrucciones personalizadas**. Móvil: **Configuración** → **Personalizar ChatGPT**. | Los cambios se aplican inmediatamente a todos los chats, también los existentes. Límites: 1.500 caracteres en Free/Go y 5.000 en Plus/Pro/Business/Enterprise/Education. Si la interfaz muestra otro límite, respétalo. Abrir una conversación nueva sirve como comprobación. |
 | Proyecto | **Nuevo proyecto** (barra lateral) → nombre. Instrucciones: abrir el proyecto → menú **•••** → **Configuración del proyecto**. Archivos: añadirlos como fuentes del proyecto. | Dentro del proyecto, sus instrucciones **prevalecen** sobre las personalizadas. Límite de archivos según plan (5 en gratuito, 25 en Plus). |
 | Conectores | **Configuración** → **Plugins** → elegir el servicio (o el plugin que lo incluye) → **Instalar plugin** si aparece → **Conectar** e iniciar sesión. En versiones antiguas del móvil se llama **Apps**. | La disponibilidad depende del servicio, el plan, la región y la cuenta; en cuentas de empresa, el administrador decide cuáles hay. |
 
