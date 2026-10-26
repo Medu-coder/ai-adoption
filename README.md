@@ -1,4 +1,4 @@
-# IA Adoption
+# AI Adoption
 
 Kit público para ayudar a otras personas a adoptar la IA (Claude) en su día a día y en su trabajo.
 
