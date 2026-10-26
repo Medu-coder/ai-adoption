@@ -10,10 +10,10 @@ Abre tu herramienta de IA y escribe:
 
 > Lee https://github.com/Medu-coder/ai-adoption y ayúdame a configurarme.
 
-El asistente te propondrá instalar el Coach IA (para tenerlo siempre a mano y actualizado) o te guiará directamente.
+El asistente te preguntará qué herramienta usas y, si se puede, te propondrá instalar el Coach IA para tenerlo siempre a mano y actualizado (en Claude y en la app de escritorio de ChatGPT/Codex). Si no se puede instalar (por ejemplo, en ChatGPT web), te guiará directamente en esa conversación.
 
 Si prefieres instalarlo tú:
-- **Claude:** Customize → Plugins → Add marketplace → `Medu-coder/ai-adoption` → instalar **Coach IA**.
+- **Claude:** Customize → Plugins → Add marketplace → `Medu-coder/ai-adoption` → instalar **Coach IA** → activar **Sync automatically**.
 - **Claude Code:** `/plugin install coach-ia --marketplace Medu-coder/ai-adoption`
 - **ChatGPT / Codex:** en la app de escritorio, ejecuta `codex plugin marketplace add Medu-coder/ai-adoption`, reinicia e instala **Coach IA** desde el directorio de plugins.
 

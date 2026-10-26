@@ -7,6 +7,7 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026** con la ayuda of
 |---|---|---|
 | Reglas básicas | Iniciales (abajo a la izquierda) → **Settings / Configuración** → **Your Claude** → **Instructions** | En versiones anteriores: **Account** → **Instructions for Claude**. Se aplican a todas las conversaciones. |
 | Proyecto | **Projects / Proyectos** → crear proyecto → nombre, instrucciones y archivos | Las instrucciones del proyecto solo se aplican dentro de él. |
+| Carpeta del ordenador (solo app de escritorio) | En una conversación, botón **Add folder** (añadir carpeta) para conectar una carpeta concreta. Alternativa: **Settings** → **Desktop app** → **Extensions** → **Manage** (en versiones anteriores, **Settings** → **Extensions**), extensión de acceso a archivos. | El trabajo con archivos locales requiere plan de pago. La ruta de **Add folder** no está descrita en la ayuda oficial: verifícala con la persona. |
 | Conectores | Desde un chat: botón **Search and tools** (abajo a la izquierda) → **Add connectors**. O en **Settings** → **Connectors** → **Browse connectors**. Luego **Connect** e iniciar sesión. | Requieren plan de pago. Tras conectar, se activan en cada conversación desde **Search and tools**. En el móvil no se pueden añadir. |
 
 ## ChatGPT
