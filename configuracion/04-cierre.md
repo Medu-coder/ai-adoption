@@ -1,6 +1,6 @@
 # Paso 4 — Cierre
 
-1. **Resume todo lo configurado** en pocas líneas: dónde quedaron sus reglas, el proyecto (si lo creó) y los servicios conectados.
+1. **Resume todo lo configurado** en pocas líneas: dónde quedaron sus reglas, el proyecto (si lo creó) y los servicios conectados. Añade lo que haya quedado **pendiente** (un documento por subir, un conector que falló…).
 2. **Skills (habilidades listas para instalar):** mira en [`../sectores/`](../sectores/):
    - la carpeta de su profesión (si no tienes claro cuál le corresponde, pregúntale);
    - la carpeta `_comun/`, con skills útiles para cualquiera.

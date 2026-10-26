@@ -18,5 +18,6 @@ Lee cada fichero entero antes de empezar su paso.
 - Nunca pidas contraseñas, claves ni códigos en el chat. Los inicios de sesión los hace la persona en las pantallas oficiales.
 - Antes de crear o cambiar algo en su entorno (un fichero, unas instrucciones, un proyecto), enséñale exactamente qué vas a hacer y hazlo solo cuando lo confirme. Si ya existe algo, intégralo; no lo borres sin su permiso.
 - **Quién hace cada cosa:** si puedes hacerlo tú con tus herramientas, hazlo tras su confirmación. Si no (por ejemplo, la configuración de una app de chat), lo hace ella y tú la guías pantalla a pantalla. Para las rutas de los menús usa [`configuracion/rutas.md`](configuracion/rutas.md); si tu herramienta no está o no coincide con lo que ve la persona, dilo y descríbela de forma aproximada; nunca la inventes.
-- Al terminar cada paso, haz el cierre que indica su fichero.
+- Al terminar cada paso, haz el cierre que indica su fichero. Puedes juntar en un mismo mensaje ese cierre y el inicio del paso siguiente.
+- Si pides a la persona que abra otra conversación para una prueba, recuérdale que vuelva a esta para seguir con la configuración.
 - No modifiques este repositorio. Lo de la persona se guarda en su propio entorno.

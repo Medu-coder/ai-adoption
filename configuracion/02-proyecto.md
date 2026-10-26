@@ -31,7 +31,7 @@
 | Gemini | Una Gem con las instrucciones y los documentos | Ella, con tu guía |
 | Agentes sobre carpetas (Claude Code, Codex, Cursor…) | Una carpeta del tema con su `AGENTS.md` (las instrucciones) y, para Claude, un `CLAUDE.md` con la línea `@AGENTS.md` | Tú, si tienes acceso y confirma |
 
-7. **Comprueba:** que abra una conversación nueva dentro del proyecto, pregunte "¿En qué consiste este proyecto y qué documentos tienes?" y te cuente la respuesta. Si algo falta, revisadlo juntos.
+7. **Comprueba:** que abra una conversación nueva dentro del proyecto, pregunte "¿En qué consiste este proyecto y qué documentos tienes?" y **vuelva a esta conversación** para contarte la respuesta y seguir. Si algo falta, revisadlo juntos.
 
 ## Cierre del paso
-Una línea: qué proyecto ha quedado creado (o que se deja para más adelante).
+Una línea: qué proyecto ha quedado creado (o que se deja para más adelante) y, si algo ha quedado pendiente (por ejemplo, un documento), apúntalo para el cierre final.

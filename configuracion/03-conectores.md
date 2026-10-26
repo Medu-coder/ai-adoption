@@ -7,7 +7,7 @@
 2. Si no usa nada de esa categoría o no quiere conectarlo, sáltala sin insistir.
 3. **Ofrece el conector** de la forma más directa posible (ver abajo).
 4. **Espera** a que confirme que ha iniciado sesión y dado permiso.
-5. **Comprueba** con la prueba de la tabla: avísale de qué vas a consultar y hazlo, sin pedir otra confirmación. Si falla justo después de conectar, puede hacer falta una conversación nueva para que el conector esté disponible; explícaselo. Si sigue fallando, apúntalo como pendiente.
+5. **Comprueba** con la prueba de la tabla: avísale de qué vas a consultar y hazlo, sin pedir otra confirmación. Si falla justo después de conectar, puede hacer falta una conversación nueva para que el conector esté disponible; explícaselo y pídele que haga la prueba allí y vuelva a esta conversación para seguir. Si sigue fallando, apúntalo como pendiente.
 
 | # | Categoría | Opciones habituales | Prueba inofensiva |
 |---|---|---|---|

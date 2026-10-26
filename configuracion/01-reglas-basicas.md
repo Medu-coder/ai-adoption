@@ -5,7 +5,7 @@
 ## Recorrido
 1. **Explica para qué sirve** en una frase: "Vamos a escribir unas reglas cortas para que no tengas que repetirme quién eres y cómo te gusta que te responda."
 2. **Mira si ya tiene reglas.** Si las ves (te llegan en la conversación o puedes leer el fichero), enséñaselas; si no, pídele que lo mire (ver "Dónde se guardan"). Si hay algo, pregunta qué quiere hacer con ello: mantenerlo, mejorarlo o empezar de cero.
-3. **Pregunta, de una en una** (puede saltar cualquiera):
+3. **Pregunta, de una en una** (puede saltar cualquiera; no preguntes lo que ya sepas por sus reglas actuales, solo confírmalo al enseñarle el texto):
    - ¿A qué te dedicas y en qué tipo de empresa o sector?
    - ¿En qué idioma y con qué tono quieres que te responda?
    - ¿Prefieres respuestas cortas o detalladas?
@@ -15,7 +15,7 @@
 4. **Redacta el texto** con la plantilla, sin pasar de unas 20 líneas. Integra lo que ya tenía y quiera conservar. Si algo coincide con una regla por defecto, fusiónalo en una línea.
 5. **Enséñale el texto completo** y explica en una frase por qué vienen por defecto las reglas de "Cómo trabajar conmigo". Ajusta y vuelve a enseñarlo entero hasta que lo apruebe. Si pide quitar una regla por defecto, recuérdale en una frase para qué sirve y quítala sin insistir.
 6. **Guárdalo** en el sitio de sus reglas de usuario. Explícale que el texto nuevo **sustituye** al anterior (ya incluye lo que quiso conservar); al aprobarlo, aprueba también esa sustitución. Si puedes escribirlo tú, dile dónde y hazlo cuando confirme. Si no, dale el texto listo para copiar y guíala hasta pegarlo y guardarlo.
-7. **Comprueba:** que abra una conversación nueva fuera de cualquier proyecto, pregunte "¿Qué sabes de mí y de cómo quiero que me respondas?" y te cuente la respuesta. Si no refleja las reglas, revisad juntos que se guardaron en el sitio correcto y repetid.
+7. **Comprueba:** que abra una conversación nueva fuera de cualquier proyecto, pregunte "¿Qué sabes de mí y de cómo quiero que me respondas?" y **vuelva a esta conversación** para contarte la respuesta y seguir con la configuración. Si no refleja las reglas, revisad juntos que se guardaron en el sitio correcto y repetid.
 
 Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), ofrece actualizar estas reglas igual: enseñar el cambio, confirmar y guardar.
 
@@ -44,13 +44,9 @@ Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), o
 ```
 
 ## Dónde se guardan (nivel usuario, nunca en un proyecto)
-Ruta exacta en los menús: [`rutas.md`](rutas.md).
-
 | Herramienta | Dónde | Quién lo guarda |
 |---|---|---|
-| Claude (apps web, escritorio, móvil) | Preferencias o instrucciones personales del perfil, en la configuración | Ella, con tu guía |
-| ChatGPT | Instrucciones personalizadas, en personalización | Ella, con tu guía |
-| Gemini | Información y preferencias guardadas | Ella, con tu guía |
+| Apps de chat (Claude, ChatGPT, Gemini…) | En sus instrucciones o preferencias personales. Ruta exacta: [`rutas.md`](rutas.md). | Ella, con tu guía |
 | Claude Code | `CLAUDE.md` global, en la carpeta `.claude` de su carpeta personal | Tú, si tienes acceso y confirma |
 | Codex | `AGENTS.md` global, en la carpeta `.codex` de su carpeta personal | Tú, si tienes acceso y confirma |
 | Otras (Cursor, Copilot…) | Reglas de usuario en su configuración o el fichero global de su documentación | Según la herramienta |
