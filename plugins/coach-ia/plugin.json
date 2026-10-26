@@ -1,5 +1,6 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "coach-ia",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Coach IA: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo, con la herramienta que prefieras."
 }

@@ -2,6 +2,9 @@
 
 **Objetivo:** que la IA pueda consultar las herramientas que la persona ya usa.
 
+## Antes de empezar
+Pregunta una sola vez: "¿Tu empresa o tus clientes tienen alguna norma sobre usar IA con sus datos?" Si las hay, tenlas en cuenta y no propongas conectar lo que choque con ellas.
+
 ## Recorrido (categoría a categoría, en el orden de la tabla)
 1. **Pregunta qué usa.** Ejemplo: "¿Tu correo es de Google (Gmail), de Microsoft (Outlook) u otro? Si no lo necesitas, lo saltamos."
 2. Si no usa nada de esa categoría o no quiere conectarlo, sáltala sin insistir.
@@ -15,8 +18,8 @@
 | 2 | Calendario | Google Calendar, Outlook | Ver la agenda de hoy |
 | 3 | Archivos y ofimática | Google Drive, OneDrive / SharePoint, Dropbox, Box | Buscar por su nombre un documento que te diga ella, sin abrir su contenido |
 | 4 | Notas | Notion, OneNote, Evernote, Obsidian, Apple Notas | Leer una nota que ella indique |
-| 5 | Tareas | Todoist, Asana, Trello, ClickUp, Planner | Listar tareas pendientes |
-| 6 | Mensajería | Slack, Teams, WhatsApp, Telegram… | Leer el último mensaje de un canal o chat |
+| 5 | Tareas | Todoist, Asana, Trello, ClickUp, Planner | Listar los títulos de hasta 3 tareas pendientes de una lista que ella indique |
+| 6 | Mensajería | Slack, Teams, WhatsApp, Telegram… | Leer el último mensaje de un canal que ella indique |
 | 7 | Reuniones | Zoom, Meet, Teams, transcriptores | Encontrar la última reunión |
 | 8 | Archivos del ordenador | Una carpeta concreta (solo apps de escritorio) | Listar el contenido de la carpeta |
 | 9 | Opcionales | CRM, diseño (Canva, Figma) | Según el caso |
