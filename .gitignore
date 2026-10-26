@@ -12,11 +12,14 @@ id_ed25519*
 credentials*.json
 *.cookies
 cookies*.json
+secrets.*
+*.secret
+token.json
+tokens.json
 .npmrc
 .pypirc
 
 # Datos locales
-data/
 *.local.*
 private/
 
@@ -31,5 +34,3 @@ __pycache__/
 # Datos reales de trabajo (red de seguridad; mejor fuera del repo)
 privado/
 clientes/
-*secret*
-*token*

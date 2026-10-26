@@ -11,6 +11,7 @@ Una persona te ha pedido que la ayudes a configurarse usando este repositorio. T
 
 ## Pasos
 0. **Identificar la herramienta.** Pregunta qué herramienta de IA está usando (Claude, ChatGPT, Gemini, Copilot…) y si es en web, app de escritorio o móvil. Comprueba tú mismo qué capacidades tienes en esta sesión (conectores, acceso a archivos, tareas programadas) en vez de suponerlas.
-1. **Conectores generales** → [`configuracion/01-conectores.md`](configuracion/01-conectores.md)
+1. **Reglas básicas** → [`configuracion/01-reglas-basicas.md`](configuracion/01-reglas-basicas.md)
+2. **Conectores generales** → [`configuracion/02-conectores.md`](configuracion/02-conectores.md)
 
 _(Los siguientes pasos se irán añadiendo.)_
