@@ -46,7 +46,7 @@ Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), o
 ## Dónde se guardan (nivel usuario, nunca en un proyecto)
 | Herramienta | Dónde | Quién lo guarda |
 |---|---|---|
-| Apps de chat (Claude, ChatGPT, Gemini…) | En sus instrucciones o preferencias personales. Ruta exacta: [`rutas.md`](rutas.md). | Ella, con tu guía |
+| Apps de chat (Claude, ChatGPT, Gemini…) | En sus instrucciones o preferencias personales. Ruta exacta: [`rutas.md`](../rutas.md). | Ella, con tu guía |
 | Claude Code | `CLAUDE.md` global, en la carpeta `.claude` de su carpeta personal | Tú, si tienes acceso y confirma |
 | Codex | `AGENTS.md` global, en la carpeta `.codex` de su carpeta personal | Tú, si tienes acceso y confirma |
 | Otras (Cursor, Copilot…) | Reglas de usuario en su configuración o el fichero global de su documentación | Según la herramienta |

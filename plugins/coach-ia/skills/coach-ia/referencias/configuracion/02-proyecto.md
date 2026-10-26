@@ -22,7 +22,7 @@
    - Usa como referencia el temario adjunto.
    ```
 5. **Documentos:** pregunta cuáles quiere añadir. Solo lo que acepte que la IA consulte. Si llevan datos personales de terceros (clientes, alumnos, empleados…), mejor una versión sin ellos; si no la tiene preparada, propón añadir ese documento más adelante.
-6. **Crearlo** (ruta exacta en [`rutas.md`](rutas.md)):
+6. **Crearlo** (ruta exacta en [`rutas.md`](../rutas.md)):
 
 | Herramienta | Cómo | Quién |
 |---|---|---|

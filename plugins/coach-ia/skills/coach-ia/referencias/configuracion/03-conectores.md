@@ -28,7 +28,7 @@
 ## Cómo ofrecer el conector (primera opción posible)
 1. **Tarjeta o botón de conexión en el chat**, si puedes buscar el conector en el directorio de tu app y mostrárselo para que pulse "Conectar". En Claude: búscalo en el directorio y muéstralo como sugerencia de conexión.
 2. **Enlace directo** a la pantalla donde se conecta.
-3. **Instrucciones escritas** con la ruta de [`rutas.md`](rutas.md). Si tu herramienta no está ahí, dilo y descríbela de forma aproximada (suele estar en "Conectores", "Apps" o "Integraciones" de la configuración); no la inventes.
+3. **Instrucciones escritas** con la ruta de [`rutas.md`](../rutas.md). Si tu herramienta no está ahí, dilo y descríbela de forma aproximada (suele estar en "Conectores", "Apps" o "Integraciones" de la configuración); no la inventes.
 
 Si no hay conector para lo que usa, díselo y propón una alternativa (por ejemplo, subir el archivo al chat).
 

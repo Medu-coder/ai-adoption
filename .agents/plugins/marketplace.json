@@ -1,0 +1,20 @@
+{
+  "name": "ai-adoption",
+  "interface": {
+    "displayName": "AI Adoption"
+  },
+  "plugins": [
+    {
+      "name": "coach-ia",
+      "source": {
+        "source": "local",
+        "path": "./plugins/coach-ia"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

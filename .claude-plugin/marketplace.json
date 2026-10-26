@@ -1,0 +1,14 @@
+{
+  "name": "ai-adoption",
+  "description": "Plugins para empezar a usar la IA en tu día a día y tu trabajo.",
+  "owner": {
+    "name": "Medu-coder"
+  },
+  "plugins": [
+    {
+      "name": "coach-ia",
+      "source": "./plugins/coach-ia",
+      "description": "Coach IA: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo."
+    }
+  ]
+}
