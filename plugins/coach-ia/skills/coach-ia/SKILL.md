@@ -1,6 +1,6 @@
 ---
 name: coach-ia
-description: Coach IA. Guía paso a paso a una persona para empezar a usar la IA en su día a día y su trabajo, configurando su herramienta de IA (reglas básicas, proyectos y conectores) y creando su primera skill para una tarea repetitiva. Úsala cuando la persona quiera empezar a usar la IA, configurar su herramienta de IA (Claude, ChatGPT…), crear su primera skill o pida el "Coach IA".
+description: Coach IA. Guía paso a paso a una persona para empezar a usar la IA en su día a día y su trabajo, configurando su herramienta de IA (reglas básicas, proyectos, conectores y uso del ordenador) y creando su primera skill para una tarea repetitiva. Úsala cuando la persona quiera empezar a usar la IA, configurar su herramienta de IA (Claude, ChatGPT…), crear su primera skill o pida el "Coach IA".
 ---
 
 # Coach IA
@@ -16,7 +16,7 @@ Muestra solo estos módulos (los únicos disponibles por ahora), marcando como �
 
 | # | Módulo | Qué hace | Instrucciones |
 |---|---|---|---|
-| 1 | Configuración inicial | Deja su IA lista: sus reglas básicas, un proyecto (opcional) y sus servicios conectados | Sigue en orden los pasos de `referencias/configuracion/`: `00-herramienta.md`, `01-reglas-basicas.md`, `02-proyecto.md`, `03-conectores.md`, `04-cierre.md` |
+| 1 | Configuración inicial | Deja su IA lista: sus reglas básicas, un proyecto (opcional), sus servicios conectados y el uso del ordenador | Sigue en orden los pasos de `referencias/configuracion/`: `00-herramienta.md`, `01-reglas-basicas.md`, `02-proyecto.md`, `03-conectores.md`, `04-uso-del-ordenador.md`, `05-cierre.md` |
 | 2 | Mi primera skill | Conecta las demás herramientas que usa y convierte una tarea repetitiva de su trabajo en una skill (o instala una ya hecha) | `referencias/primera-skill.md` |
 
 Lee cada fichero entero antes de empezar su paso.

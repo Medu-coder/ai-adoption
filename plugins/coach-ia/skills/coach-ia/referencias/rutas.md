@@ -1,6 +1,6 @@
 # Rutas en cada herramienta
 
-Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills y plugins, el 26/10/2026 (noche)** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo juntas a partir de lo más parecido.
+Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, plugins y uso del ordenador, el 26/10/2026 (noche)** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo juntas a partir de lo más parecido.
 
 ## Claude (web y escritorio)
 | Qué | Ruta | Notas |
@@ -13,6 +13,8 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills y
 | Creador de skills | En la barra lateral, **Customize / Personalización** → **Skills** → activar **skill-creator**. Después, pedir en el chat crear una skill para la tarea. | Viene incluido; solo hay que activarlo. |
 | Guardar y activar una skill | Guardar el archivo de skill que genera Claude. En **Customize / Personalización** → **Skills** se ve la biblioteca y se activa o desactiva cada skill. | En Claude Code, las skills personales van en la carpeta `.claude/skills` de su carpeta personal. |
 | Plugins oficiales | **Customize** → **Plugins**. Catálogo oficial de Anthropic: https://claude.com/plugins | El marketplace oficial (`claude-plugins-official`) lo cura Anthropic. |
+| Creador de skills en Claude Code | `/plugin install skill-creator@claude-plugins-official` | Del marketplace oficial de Anthropic, que Claude Code ya trae añadido. |
+| Uso del ordenador | App de escritorio (Mac o Windows), actualizada: **Settings / Configuración** → apartado **Desktop app** → activar **Computer use**. En Mac, aceptar los permisos de grabación de pantalla y accesibilidad. | Pro y Max, en vista previa. En la misma pantalla se pueden añadir apps bloqueadas. Claude pide permiso antes de usar cada app. El ordenador debe estar encendido y la app abierta. |
 
 ## ChatGPT
 | Qué | Ruta | Notas |
@@ -24,6 +26,7 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills y
 | Ver sus skills | App de escritorio: **Skills** en la barra lateral. | |
 | Grabar una skill (Record & Replay) | Solo app de escritorio en Mac: activar **Work** (o elegir Codex) → **Plugins** → menú **+** → **Record a skill** → revisar el texto propuesto y enviarlo → aceptar el permiso → hacer la tarea → parar la grabación. | Necesita Computer Use activado. En cuentas de empresa puede estar desactivado. |
 | Plugins oficiales | **Plugins** en la barra lateral (web, escritorio o móvil), o **Configuración** → **Plugins**. | Algunos llevan la insignia **OpenAI Verified** (revisados por OpenAI). |
+| Uso del ordenador | App de escritorio (Mac o Windows): activar **Work** (o elegir Codex) → **Plugins** → **Computer Use** → **Install plugin** (o **Enable**) → activar sus interruptores → **Try now**. En Mac, aceptar los permisos de grabación de pantalla y accesibilidad. | Las apps permitidas se revisan en **Settings** → **Computer use**. Pide permiso antes de usar cada app. En Windows trabaja en primer plano. |
 
 ## Codex (app, CLI y extensión del IDE)
 | Qué | Ruta | Notas |
@@ -31,6 +34,7 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills y
 | Creador de skills | Escribir `$skill-creator` en el chat. | Viene incluido con Codex. |
 | Guardar una skill | Carpeta `.agents/skills` de su carpeta personal (una carpeta por skill con su `SKILL.md`). | Codex detecta los cambios solo; si no aparece, reiniciar Codex. |
 | Plugins oficiales | App: **Plugins** (apartado de curados por OpenAI). CLI: `/plugins`. | |
+| Uso del ordenador | Igual que en la app de escritorio de ChatGPT (plugin **Computer Use**). | No disponible en la CLI. |
 
 ## Otras herramientas (Gemini, Copilot…)
 Sin rutas revisadas todavía. Usa la ayuda oficial de la herramienta si puedes consultarla; si no, describe la ruta de forma aproximada y dilo.
@@ -42,6 +46,8 @@ Sin rutas revisadas todavía. Usa la ayuda oficial de la herramienta si puedes c
 - ChatGPT, instrucciones personalizadas: https://help.openai.com/en/articles/8096356
 - ChatGPT, proyectos: https://help.openai.com/en/articles/10169521
 - ChatGPT, apps conectadas: https://help.openai.com/en/articles/11487775
+- Claude, uso del ordenador: https://support.claude.com/en/articles/14128542
+- ChatGPT y Codex, uso del ordenador: https://learn.chatgpt.com/docs/computer-use
 - Claude, usar skills (planes y requisitos): https://support.claude.com/en/articles/12512180
 - Claude, crear una skill conversando: https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation
 - Claude, buenas prácticas para escribir skills: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices

@@ -2,9 +2,6 @@
 
 **Objetivo:** que la IA pueda consultar las herramientas que la persona ya usa.
 
-## Antes de empezar
-Pregunta una sola vez: "¿Tu empresa o tus clientes tienen alguna norma sobre usar IA con sus datos?" Si las hay, tenlas en cuenta y no propongas conectar lo que choque con ellas.
-
 ## Recorrido (categoría a categoría, en el orden de la tabla)
 1. **Pregunta qué usa.** Ejemplo: "¿Tu correo es de Google (Gmail), de Microsoft (Outlook) u otro? Si no lo necesitas, lo saltamos."
 2. Si no usa nada de esa categoría o no quiere conectarlo, sáltala sin insistir.
@@ -25,7 +22,7 @@ Pregunta una sola vez: "¿Tu empresa o tus clientes tienen alguna norma sobre us
 
 - **Mensajería:** muchas apps personales (como WhatsApp) no tienen conector. Díselo y propón copiar el mensaje o pegar una captura cuando lo necesite.
 - **Carpeta del ordenador:** mejor una carpeta concreta que toda su carpeta personal. Si puedes pedir acceso, hazlo y avísale de que verá un aviso para permitirlo; si no, guíala para añadirla desde la app.
-- Otros programas que use (diseño, gestión de clientes, los de su profesión…) no van aquí: se ven en el módulo 2.
+- Otros programas que use (diseño, gestión de clientes, los de su profesión…) no van aquí: se ven en el módulo 2. Para apps sin conector, el paso siguiente (uso del ordenador) ofrece otra vía.
 
 ## Cómo ofrecer el conector (primera opción posible)
 1. **Tarjeta o botón de conexión en el chat**, si puedes buscar el conector en el directorio de tu app y mostrárselo para que pulse "Conectar". En Claude: búscalo en el directorio y muéstralo como sugerencia de conexión.
