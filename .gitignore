@@ -1,0 +1,31 @@
+# Secretos y credenciales — nunca al repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+credentials*.json
+*secret*
+*token*
+*.cookies
+cookies*.json
+.npmrc
+.pypirc
+
+# Datos locales
+data/
+*.local.*
+private/
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+__pycache__/
+*.pyc
