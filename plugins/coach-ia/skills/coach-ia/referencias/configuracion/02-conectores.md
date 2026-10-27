@@ -34,7 +34,7 @@
 Si no hay forma de acceder a lo que usa, díselo en llano ("a esto no puedo acceder directamente") y propón una alternativa (por ejemplo, que te adjunte el archivo en el chat).
 
 ## Permisos
-- Si la pantalla de conexión deja elegir, recomienda empezar solo con lectura. Si no deja, explícale qué permite y recuérdale que pedirás confirmación antes de enviar, crear o modificar nada.
+- Explícale en llano qué permite la conexión y recuérdale que pedirás confirmación antes de enviar, crear o modificar nada.
 - No digas que un conector es "solo de lectura" si no lo has comprobado.
 - Conecta solo lo que use de verdad.
 

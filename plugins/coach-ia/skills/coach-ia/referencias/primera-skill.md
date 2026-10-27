@@ -14,7 +14,7 @@ Si no ha hecho el módulo 1, antes de empezar pregunta a qué se dedica y ofréc
 3. **Sus herramientas del día a día.** Pregunta una sola vez: "Además del correo y la agenda, ¿qué programas usas en tu trabajo? Por ejemplo, para diseñar, hacer presupuestos o llevar a tus clientes."
    - Busca cada una en el directorio oficial de conectores y plugins de tu plataforma, igual que en "Buscar skills hechas". Solo resultados oficiales; no inventes.
    - Enséñale el resultado en una lista corta y en llano: cada programa, si puedes acceder a él y qué podrías hacer por la persona.
-   - Ofrece conectarlas **una a una**, como en el paso de conectores del módulo 1 (`configuracion/02-conectores.md`): tarjeta de conexión si puedes, permisos de solo lectura si deja elegir y una prueba inofensiva. Las que no quiera conectar o no tengan conector, anótalas y sigue.
+   - Ofrece conectarlas **una a una**, como en el paso de conectores del módulo 1 (`configuracion/02-conectores.md`): tarjeta de conexión si puedes y una prueba inofensiva. Las que no quiera conectar o no tengan conector, anótalas y sigue.
    - Si es una app de mensajería como WhatsApp: si ya la configuró en el módulo 1, no la repitas; si no, sigue [`configuracion/04-apps-sin-conector.md`](configuracion/04-apps-sin-conector.md).
    - Si otra herramienta no tiene conector pero la usa en su ordenador, recuérdale que con el **uso del ordenador** (paso 3 del módulo 1) la IA puede usarla directamente; si no lo activó, ofrécelo ahora con ese paso (`configuracion/03-uso-del-ordenador.md`).
 4. **Encuentra la tarea.** Pregunta, de una en una:
