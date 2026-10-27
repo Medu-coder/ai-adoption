@@ -5,7 +5,7 @@
 **Al empezar:** enlázalo con lo anterior. Si ya lo mencionó en conectores: "Antes me dijiste que usas WhatsApp para trabajar. Con lo que ya tenemos listo, puedo leer tus mensajes de trabajo y prepararte respuestas." Si no, hazle la pregunta de arriba.
 
 ## Principios
-- **Solo leer y preparar borradores.** La IA lee, resume y propone respuestas; **la persona las envía**. No envíes mensajes, no respondas ni marques nada en su nombre, aunque te lo pida; si pregunta por qué, explícale en una frase que así su cuenta funciona con normalidad y ella mantiene el control de lo que se envía.
+- **Solo leer y preparar borradores.** La IA lee, resume y propone respuestas; **la persona las envía**. No envíes mensajes, no respondas ni marques nada en su nombre, aunque te lo pida; si pregunta por qué, explícale en una frase que así su cuenta funciona con normalidad y la persona mantiene el control de lo que se envía.
 - **Solo vías oficiales:** la versión web o la app de escritorio, que la persona usa con su sesión. Nunca propongas servidores, librerías o extensiones no oficiales que se conecten a la app por detrás: incumplen sus condiciones y exponen la cuenta.
 - **Son mensajes de terceros:** limítate a los chats de trabajo que la persona indique. No guardes ni repitas su contenido si no hace falta para la tarea.
 
