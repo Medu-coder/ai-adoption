@@ -2,7 +2,7 @@
 
 **Objetivo:** detectar con la persona una tarea repetitiva de su trabajo y convertirla en una skill: instrucciones que la IA sigue siempre igual, sin que haya que explicárselo cada vez. Es opcional: si no aparece una tarea que encaje, no se fuerza.
 
-Trabaja solo con la plataforma en la que estás funcionando: no guíes para crear skills en otra herramienta. Usa lo que ya sabes de su herramienta, superficie (web, escritorio, móvil) y plan; si no lo sabes, pregúntalo una vez. Todo el módulo se hace en esta conversación.
+Trabaja solo con la plataforma en la que estás funcionando: no guíes para crear skills en otra herramienta. Usa lo que ya sabes de su herramienta, superficie (web, escritorio, móvil) y plan; si no lo sabes, pregúntalo una vez. Todo el módulo se hace en esta conversación (salvo la prueba final, que se hace en una nueva y se vuelve aquí).
 
 Con la persona no uses las palabras "skill", "plugin" ni "conector" (ver "Cómo hablarle" en la skill): habla de "una tarea que aprendo a hacer por ti" y de "darme acceso" a sus programas. Solo cuando tenga que pulsar algo con ese nombre en la pantalla, dáselo tal cual.
 
@@ -16,7 +16,7 @@ Si no ha hecho el módulo 1, antes de empezar pregunta a qué se dedica y ofréc
    - Enséñale el resultado en una lista corta y en llano: cada programa, si puedes acceder a él y qué podrías hacer por la persona.
    - Ofrece conectarlas **una a una**, como en el paso de conectores del módulo 1 (`configuracion/02-conectores.md`): tarjeta de conexión si puedes y una prueba inofensiva. Las que no quiera conectar o no tengan conector, anótalas y sigue.
    - Si es una app de mensajería como WhatsApp: si ya la configuró en el módulo 1, no la repitas; si no, sigue [`configuracion/04-apps-sin-conector.md`](configuracion/04-apps-sin-conector.md).
-   - Si otra herramienta no tiene conector pero la usa en su ordenador, recuérdale que con el **uso del ordenador** (paso 3 del módulo 1) la IA puede usarla directamente; si no lo activó, ofrécelo ahora con ese paso (`configuracion/03-uso-del-ordenador.md`).
+   - Si otra herramienta no tiene conector pero la usa en su ordenador, recuérdale que con el **uso del ordenador** (paso 3 del módulo 1) la IA puede usarla directamente; si no se trató en el módulo 1, ofrécelo ahora con ese paso (`configuracion/03-uso-del-ordenador.md`); si lo rechazó, no insistas.
 4. **Encuentra la tarea.** Pregunta, de una en una:
    - ¿Qué tarea haces cada semana (o más) siguiendo siempre los mismos pasos?
    - ¿Qué resultado entregas (un correo, un informe, una tabla…) y suele tener el mismo formato?
@@ -31,8 +31,8 @@ Si no ha hecho el módulo 1, antes de empezar pregunta a qué se dedica y ofréc
    - Alternativa en ChatGPT escritorio o Codex en un Mac: si la tarea es más fácil de enseñar que de explicar, puede enseñármela haciéndola mientras se graba (**Record & Replay**; ruta en `rutas.md`; necesita el uso del ordenador activado). Recuérdale que grabe solo la tarea y evite datos sensibles.
 9. **Crea la skill con el creador oficial**, en esta misma conversación, pasándole el resumen aprobado. Si no quiso instalarlo o no está disponible en esta conversación, redacta tú la skill siguiendo la guía oficial de buenas prácticas de tu plataforma (enlace en `rutas.md`, apartado "Fuentes"): una sola tarea por skill; una descripción clara de qué hace y cuándo usarla; pasos concretos con lo que recibe y lo que entrega.
 
-   Antes de guardar, enséñale el nombre, cuándo se activará y los pasos, y guarda solo cuando confirme. Si puedes guardarla tú (por ejemplo, en su carpeta de skills), dile dónde y hazlo; si no, guíale para guardarla (ver `rutas.md`).
-10. **Prueba:** que abra una conversación nueva, pida la tarea con sus propias palabras (sin decir el nombre que le hemos dado), y vuelva a esta conversación para contarte si se activó y si el resultado le sirve. Si no se activa o falla, ajustadla aquí y repetid.
+   Antes de guardar, enséñale el nombre, cuándo se activará y los pasos, y guarda solo cuando confirme. Guárdala tú en el sitio que indica [`rutas.md`](rutas.md), o deja que la guarde el creador oficial; dile dónde queda en llano. Si no tienes permiso para escribir, sigue la norma de permisos de la skill. Nunca le pidas crear carpetas o ficheros a mano.
+10. **Prueba:** que abra una conversación nueva, pida la tarea con sus propias palabras (sin decir el nombre que le hemos dado), y vuelva a esta conversación para contarte si se activó y si el resultado le sirve. Antes de darla por buena, contrasta el resultado con lo que pidió: nada inventado ni dado por hecho que no lo esté. Si no se activa o falla, ajustadla aquí y repetid con otro caso.
 
 ## Dónde se puede
 | Plataforma | Skills propias | Creador oficial |
@@ -51,12 +51,14 @@ Si no ha hecho el módulo 1, antes de empezar pregunta a qué se dedica y ofréc
 | ChatGPT (app de escritorio, Work) y Codex | Viene incluido |
 
 ## Buscar skills hechas
-Busca con su profesión y la tarea elegida, en este orden:
-1. Con las herramientas de tu app, si puedes buscar en su directorio de plugins o skills.
-2. En el catálogo oficial de tu plataforma ([`rutas.md`](rutas.md)) y en el marketplace del Coach IA (https://github.com/Medu-coder/ai-adoption, lista en su README).
-3. Si no puedes buscar, dale la ruta del directorio y qué términos buscar.
+Consulta siempre el catálogo **real y actualizado**, nunca de memoria ni con una búsqueda general en internet. Busca con su profesión y la tarea elegida (o el programa, en el paso 3), en este orden:
+1. El directorio oficial de tu app, con tus herramientas (búsqueda de plugins, conectores o skills).
+2. Si no tienes esa herramienta, la página oficial del catálogo de tu plataforma ([`rutas.md`](rutas.md)), abierta con tu navegador o tu lectura de páginas.
+3. El marketplace del Coach IA (https://github.com/Medu-coder/ai-adoption, lista en su README).
+
+No digas que no existe nada hasta haber consultado el catálogo oficial y el del Coach; si alguno no lo has podido consultar, díselo. Si no puedes consultar ninguno, dale la ruta del directorio y qué buscar.
 
 Solo catálogos oficiales y el del Coach IA. No inventes nombres ni funciones. Muchos plugins están pensados para programadores: propón solo los que encajen de verdad con su tarea. Instala solo si confirma.
 
 ## Cierre del módulo
-Haz el cierre de la skill (apartado "Al cerrar un módulo"). Incluye las herramientas conectadas en este módulo (tabla del paso 3, sin repetirla), qué skill quedó creada o instalada y cómo se activa (basta con pedir la tarea; también puede llamarla por su nombre). Sugiere pulirla tras usarla 2 o 3 veces: basta con volver aquí y contar qué cambiaría.
+Haz el cierre de la skill (apartado "Al cerrar un módulo"). Incluye las herramientas conectadas en este módulo (lista del paso 3, sin repetirla), qué skill quedó creada o instalada y cómo se activa (basta con pedir la tarea; también puede llamarla por su nombre). Sugiere pulirla tras usarla 2 o 3 veces: basta con volver aquí y contar qué cambiaría.

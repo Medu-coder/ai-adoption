@@ -7,7 +7,8 @@
 ## Principios
 - **Solo leer y preparar borradores.** La IA lee, resume y propone respuestas; **la persona las envía**. No envíes mensajes, no respondas ni marques nada en su nombre, aunque te lo pida; si pregunta por qué, explícale en una frase que así su cuenta funciona con normalidad y la persona mantiene el control de lo que se envía.
 - **Solo vías oficiales:** la versión web o la app de escritorio, que la persona usa con su sesión. Nunca propongas servidores, librerías o extensiones no oficiales que se conecten a la app por detrás: incumplen sus condiciones y exponen la cuenta.
-- **Son mensajes de terceros:** limítate a los chats de trabajo que la persona indique. No guardes ni repitas su contenido si no hace falta para la tarea.
+- **Son mensajes de terceros:** limítate a los chats de trabajo (si lo usa solo para trabajo, todos; si su uso es mixto, los de su lista).
+- **Abrir un chat lo marca como leído** para quien lo envió. Díselo al elegir la vía y que decida si le vale; si no, trabaja con chats exportados. No guardes ni repitas su contenido si no hace falta para la tarea.
 
 ## Elige la vía, en este orden
 1. **Navegador integrado con la versión web** (en WhatsApp: web.whatsapp.com). Usa el navegador integrado de tu app de escritorio, no extensiones. Pídele que inicie sesión y guíale en llano (en WhatsApp: "en la pantalla aparecerá un cuadrado con dibujos; ábrelo desde WhatsApp en tu móvil y apunta la cámara", con los pasos exactos de su móvil si los pide). Después lees el texto de la página. Es la vía más rápida y precisa. La sesión puede caducar: si pasa, que vuelva a iniciarla.
@@ -22,7 +23,7 @@ Si su herramienta no permite ninguna de las dos primeras, díselo y ofrece la te
 - **Mixto:** trabaja siempre con su **lista de contactos** (abajo). Nunca abras un chat que no esté en "Trabajo".
 
 ## Lista de contactos (uso mixto)
-**Dónde:** un archivo `contactos-whatsapp.md` en su carpeta de trabajo conectada (paso 2, carpeta del ordenador). Si no tiene carpeta conectada, ofrécele conectarla ahora; sin carpeta, no se puede mantener la lista. Si ya existe, úsala y no la rehagas.
+**Dónde:** un archivo `contactos-whatsapp.md` en su carpeta de trabajo conectada (paso 2, carpeta del ordenador). Si no tiene carpeta conectada, ofrécele conectarla ahora; sin carpeta, no se puede mantener la lista. Si no quiere o no se puede, no mires su lista de chats por tu cuenta: abre solo el chat que te nombre cada vez, o trabaja con chats exportados. Si ya existe, úsala y no la rehagas.
 
 **Primera clasificación, sin abrir ningún chat:**
 1. Mira solo la lista de chats (nombres y grupos), sin entrar en ninguno.

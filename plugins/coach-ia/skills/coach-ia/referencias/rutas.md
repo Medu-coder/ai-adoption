@@ -1,6 +1,6 @@
 # Rutas en cada herramienta
 
-Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, plugins y uso del ordenador, el 26/10/2026 (noche); reglas básicas, el 27/10/2026** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo a partir de lo más parecido.
+Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, plugins y uso del ordenador, el 26/10/2026 (noche); reglas básicas y guardado de skills, el 27/10/2026** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo a partir de lo más parecido.
 
 ## Claude (web y escritorio)
 | Qué | Ruta | Notas |
@@ -25,6 +25,7 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, 
 | Conectores | **Configuración** → **Plugins** → elegir el servicio (o el plugin que lo incluye) → **Instalar plugin** si aparece → **Conectar** e iniciar sesión. En versiones antiguas del móvil se llama **Apps**. | La disponibilidad depende del servicio, el plan, la región y la cuenta; en cuentas de empresa, el administrador decide cuáles hay. |
 | Creador de skills | Solo en la app de escritorio, en **Work**: escribir `@skill-creator` en el chat. | En la web y el móvil no se pueden crear ni usar skills sueltas; solo las que vienen dentro de un plugin instalado. |
 | Ver sus skills | App de escritorio: **Skills** en la barra lateral. | |
+| Guardar una skill | La guarda `@skill-creator` al terminar. Si la guarda el Coach, en la carpeta `.agents/skills` de su carpeta personal, la misma que usa Codex. | Pendiente de verificar en Work con una prueba real. |
 | Grabar una skill (Record & Replay) | Solo app de escritorio en Mac: activar **Work** (o elegir Codex) → **Plugins** → menú **+** → **Record a skill** → revisar el texto propuesto y enviarlo → aceptar el permiso → hacer la tarea → parar la grabación. | Necesita Computer Use activado. En cuentas de empresa puede estar desactivado. |
 | Plugins oficiales | **Plugins** en la barra lateral (web, escritorio o móvil), o **Configuración** → **Plugins**. | Algunos llevan la insignia **OpenAI Verified** (revisados por OpenAI). |
 | Uso del ordenador | App de escritorio (Mac o Windows): activar **Work** (o elegir Codex) → **Plugins** → **Computer Use** → **Install plugin** (o **Enable**) → activar sus interruptores → **Try now**. En Mac, aceptar los permisos de grabación de pantalla y accesibilidad. | Las apps permitidas se revisan en **Settings** → **Computer use**. Pide permiso antes de usar cada app. En Windows trabaja en primer plano. |
@@ -32,9 +33,9 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, 
 ## Codex (app, CLI y extensión del IDE)
 | Qué | Ruta | Notas |
 |---|---|---|
-| Reglas básicas | App: **Settings** → **Personalization** → **Custom instructions** (edita el fichero de abajo). CLI y extensión: el fichero `AGENTS.md` de la carpeta `.codex` de su carpeta personal. | Si existe `AGENTS.override.md` en esa carpeta, se lee ese en su lugar. Codex deja de leer instrucciones cuando el total (globales y de cada carpeta) llega a 32 KiB, unos 32.000 caracteres. |
+| Reglas básicas | App: **Settings** → **Personalization** → **Custom instructions** (edita el fichero de abajo). CLI y extensión: el fichero `AGENTS.md` de la carpeta `.codex` de su carpeta personal. | Si existe `AGENTS.override.md` en esa carpeta, se lee ese en su lugar. Codex deja de leer instrucciones cuando el total (globales y de cada carpeta) llega a 32 KiB por defecto (es configurable). |
 | Creador de skills | Escribir `$skill-creator` en el chat. | Viene incluido con Codex. |
-| Guardar una skill | Carpeta `.agents/skills` de su carpeta personal (una carpeta por skill con su `SKILL.md`). | Codex detecta los cambios solo; si no aparece, reiniciar Codex. |
+| Guardar una skill | Carpeta `.agents/skills` de su carpeta personal (una carpeta por skill con su `SKILL.md`). No es `.codex/skills`. | Codex detecta los cambios solo; si no aparece, reiniciar Codex. |
 | Plugins oficiales | App: **Plugins** (apartado de curados por OpenAI). CLI: `/plugins`. | |
 | Uso del ordenador | Igual que en la app de escritorio de ChatGPT (plugin **Computer Use**). | No disponible en la CLI. |
 

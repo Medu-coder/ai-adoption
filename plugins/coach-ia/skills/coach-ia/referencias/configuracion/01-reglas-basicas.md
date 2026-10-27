@@ -58,7 +58,7 @@ Cuidado con
 |---|---|---|
 | Claude (web, escritorio y móvil) | Sus instrucciones personales (**Instructions for Claude**). Si su app de escritorio muestra además unas **instrucciones globales** en el apartado de Cowork (versiones anteriores), también ahí. Ruta: [`rutas.md`](../rutas.md). | La persona, con tu guía |
 | ChatGPT (web, móvil y modo Chat de la app de escritorio) | **Personalización**: la línea de profesión en **Ocupación**; "Quién soy" y "Mi trabajo" en **Más sobre ti**; el resto en **Instrucciones personalizadas**. | La persona, con tu guía |
-| ChatGPT en la app de escritorio (modos Work y Codex) y Codex | Su fichero de instrucciones del ordenador: `AGENTS.md` en la carpeta `.codex` de su carpeta personal (es lo mismo que **Configuración → Personalización → Instrucciones personalizadas** de la app de escritorio). Si existe un `AGENTS.override.md` en esa carpeta, ese manda: compruébalo antes. | Tú, si tienes acceso y confirma; si no, la persona lo pega en esa pantalla |
+| ChatGPT en la app de escritorio (modos Work y Codex) y Codex | Su fichero de instrucciones del ordenador: `AGENTS.md` en la carpeta `.codex` de su carpeta personal (es lo mismo que **Configuración → Personalización → Instrucciones personalizadas** de la app de escritorio). Si existe un `AGENTS.override.md` en esa carpeta, ese es el que se usa: enséñale lo que contiene, integra lo que quiera conservar y actualiza ese fichero. | Tú, si tienes acceso y confirma; si no, la persona lo pega en esa pantalla |
 | Claude Code | `CLAUDE.md` global, en la carpeta `.claude` de su carpeta personal | Tú, si tienes acceso y confirma |
 | Otras (Cursor, Copilot…) | Reglas de usuario en su configuración o el fichero global de su documentación | Según la herramienta |
 

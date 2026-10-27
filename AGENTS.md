@@ -14,7 +14,7 @@ Explícale en una frase que, instalado, lo tendrá siempre a mano y recibirá la
 | Claude Code (versión 2.1.275 o posterior) | `/plugin install coach-ia --marketplace Medu-coder/ai-adoption` |
 | ChatGPT / Codex en la **app de escritorio**, con el comando `codex` disponible | Si puedes ejecutar comandos, enséñale este y ejecútalo cuando lo confirme: `codex plugin marketplace add Medu-coder/ai-adoption`. Si no puedes, dáselo para que lo ejecute la persona en la terminal de su ordenador. Después, reiniciar la app e instalar **Coach IA** desde el directorio de plugins. Para recibir mejoras más adelante: `codex plugin marketplace upgrade`. |
 | ChatGPT en la **web** | Puede instalar plugins del directorio, pero eso no añade este marketplace de GitHub a una cuenta personal. Si su empresa gestiona plugins, su administrador puede importar el marketplace para el equipo. Si no tiene esa vía, pasa al punto 3. |
-| ChatGPT en el **móvil**, u otra herramienta sin instalación compatible | Los plugins de ChatGPT no están disponibles en móvil. Para otras herramientas, comprueba sus capacidades. Si no puede instalarlo, pasa al punto 3. |
+| ChatGPT en el **móvil**, u otra herramienta sin instalación compatible | En el móvil solo se pueden usar los plugins que ya estén disponibles en su cuenta; este marketplace se añade desde la app de escritorio. Para otras herramientas, comprueba sus capacidades. Si no puede instalarlo, pasa al punto 3. |
 
 Si lo instala, pídele que abra una conversación nueva y escriba "Quiero empezar con el Coach IA".
 
