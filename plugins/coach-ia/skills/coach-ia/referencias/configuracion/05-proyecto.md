@@ -1,6 +1,8 @@
-# Paso 2 — Proyecto (opcional)
+# Paso 5 — Proyecto (opcional)
 
-**Objetivo:** decidir con la persona si le conviene un proyecto y, si quiere, crearlo con ella.
+**Objetivo:** decidir con la persona si le conviene un proyecto y, si quiere, crearlo.
+
+**Al empezar:** enlázalo con lo anterior. Por ejemplo: "Ya sé quién eres y tengo acceso a tus cosas. Si hay un tema de tu trabajo al que vuelves a menudo (una obra, un cliente, una asignatura…), podemos darle su propio espacio, con sus documentos a mano. En la app se llama «proyecto»."
 
 ## Recorrido
 1. **Explica qué aporta.** Un proyecto es un espacio para un tema concreto de su trabajo, con:
@@ -9,7 +11,7 @@
    - las conversaciones del tema agrupadas.
 
    Si solo va a hacer consultas sueltas, no hace falta: puede crearlo más adelante.
-2. **Pregunta:** "¿Quieres que creemos ahora un proyecto para algún tema de tu trabajo, o lo dejamos para más adelante?" Si no quiere, pasa al paso de conectores (`03-conectores.md`).
+2. **Pregunta:** "¿Quieres que creemos ahora un proyecto para algún tema de tu trabajo, o lo dejamos para más adelante?" Si no quiere, pasa al cierre (`06-cierre.md`).
 3. **Tema y nombre:** pregunta el tema y propón un nombre corto.
 4. **Instrucciones**, preguntando de una en una:
    - ¿Para qué vas a usar este proyecto? ¿Qué tareas harás en él?
@@ -26,9 +28,9 @@
 
 | Herramienta | Cómo | Quién |
 |---|---|---|
-| Claude (web, escritorio) | Un proyecto en el apartado de Proyectos, con nombre, instrucciones y documentos | Ella, con tu guía |
-| ChatGPT | Un proyecto desde la barra lateral, con instrucciones y archivos | Ella, con tu guía |
-| Gemini | Una Gem con las instrucciones y los documentos | Ella, con tu guía |
+| Claude (web, escritorio) | Un proyecto en el apartado de Proyectos, con nombre, instrucciones y documentos | La persona, con tu guía |
+| ChatGPT | Un proyecto desde la barra lateral, con instrucciones y archivos | La persona, con tu guía |
+| Gemini | Una Gem con las instrucciones y los documentos | La persona, con tu guía |
 | Agentes sobre carpetas (Claude Code, Codex, Cursor…) | Una carpeta del tema con su `AGENTS.md` (las instrucciones) y, para Claude, un `CLAUDE.md` con la línea `@AGENTS.md` | Tú, si tienes acceso y confirma |
 
 7. **Comprueba:** que abra una conversación nueva dentro del proyecto, pregunte "¿En qué consiste este proyecto y qué documentos tienes?" y **vuelva a esta conversación** para contarte la respuesta y seguir. Si algo falta, revisadlo juntos.

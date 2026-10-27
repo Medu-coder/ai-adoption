@@ -1,11 +1,11 @@
 # Rutas en cada herramienta
 
-Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, plugins y uso del ordenador, el 26/10/2026 (noche)** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo juntas a partir de lo más parecido.
+Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, plugins y uso del ordenador, el 26/10/2026 (noche); reglas básicas, el 27/10/2026** con la ayuda oficial de cada herramienta; donde algo no está confirmado, se indica. Las apps cambian a menudo: si lo que ve la persona no coincide, díselo y buscadlo a partir de lo más parecido.
 
 ## Claude (web y escritorio)
 | Qué | Ruta | Notas |
 |---|---|---|
-| Reglas básicas | Iniciales (abajo a la izquierda) → **Settings / Configuración** → **Your Claude** → **Instructions** | En versiones anteriores: **Account** → **Instructions for Claude**. Se aplican a todas las conversaciones. |
+| Reglas básicas | Iniciales (abajo a la izquierda) → **Settings / Configuración** → **Your Claude** → **Instructions for Claude** | En versiones anteriores: **Account** → **Instructions for Claude**. Se aplican a todas las conversaciones (web, escritorio y móvil). La ayuda oficial no publica límite de caracteres. En versiones anteriores de la app de escritorio, las sesiones de Cowork tenían además sus propias **Global instructions** (**Settings** → **Cowork** → **Edit**); en la versión actual forman parte de **Instructions for Claude**. |
 | Proyecto | **Projects / Proyectos** → crear proyecto → nombre, instrucciones y archivos | Las instrucciones del proyecto solo se aplican dentro de él. |
 | Carpeta del ordenador (solo app de escritorio) | Debajo del cuadro de texto de una conversación, opción para **añadir una carpeta**; después, permitir que Claude trabaje con sus archivos. | Incluido en los planes de pago. Permite leer y editar archivos de esa carpeta. Es distinto de las extensiones de escritorio (**Settings** → **Desktop app** → **Extensions**). El nombre exacto del botón no está en la ayuda oficial. |
 | Conectores | En la barra lateral, **Customize** → **Connectors**. Desde un chat: botón **+** → **Connectors** → **Manage connectors** → **+**. Elegir el servicio → **Connect** e iniciar sesión. | Los conectores web están disponibles en todos los planes, también el gratuito. En el móvil se pueden instalar (en beta); lo conectado en web o escritorio también funciona en el móvil. En cuentas de empresa, el administrador puede tener que habilitarlos. |
@@ -19,7 +19,8 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, 
 ## ChatGPT
 | Qué | Ruta | Notas |
 |---|---|---|
-| Reglas básicas | Web y escritorio: **Configuración** → **Personalización** → activar **Habilitar personalización** → **Instrucciones personalizadas**. Móvil: **Configuración** → **Personalizar ChatGPT**. | Los cambios se aplican inmediatamente a todos los chats, también los existentes. Límites: 1.500 caracteres en Free/Go y 5.000 en Plus/Pro/Business/Enterprise/Education. Si la interfaz muestra otro límite, respétalo. Abrir una conversación nueva sirve como comprobación. |
+| Reglas básicas | Web: **Configuración** → **Personalización** → activar **Habilitar personalización** → **Instrucciones personalizadas** y, debajo, **Sobre ti** (**Apodo**, **Ocupación** y **Más sobre ti**). Móvil: **Configuración** → **Personalizar ChatGPT**. App de escritorio: ver la fila siguiente. | Los cambios se aplican inmediatamente a todos los chats, también los existentes. Límites de las instrucciones personalizadas: 1.500 caracteres en Free/Go y 5.000 en Plus/Pro/Business/Enterprise/Education (la ayuda no aclara si **Más sobre ti** cuenta aparte). Si la interfaz muestra otro límite, respétalo. |
+| Reglas básicas en la app de escritorio | Modo **Chat**: usa las de la cuenta (fila anterior; se editan en la web). Modos **Work** y **Codex**: **Configuración** → **Personalización** → **Instrucciones personalizadas** de la app, que es el fichero `AGENTS.md` de la carpeta `.codex` de su carpeta personal. | Work y Codex no usan las instrucciones de la cuenta, y las de la app no se sincronizan con otros ordenadores: hay que guardarlas en los dos sitios. Lo de Codex está en su documentación oficial; el reparto entre modos, en pruebas de usuarios y avisos del repositorio oficial de Codex, no en la ayuda de ChatGPT. |
 | Proyecto | **Nuevo proyecto** (barra lateral) → nombre. Instrucciones: abrir el proyecto → menú **•••** → **Configuración del proyecto**. Archivos: añadirlos como fuentes del proyecto. | Dentro del proyecto, sus instrucciones **prevalecen** sobre las personalizadas. Límite de archivos según plan (5 en gratuito, 25 en Plus). |
 | Conectores | **Configuración** → **Plugins** → elegir el servicio (o el plugin que lo incluye) → **Instalar plugin** si aparece → **Conectar** e iniciar sesión. En versiones antiguas del móvil se llama **Apps**. | La disponibilidad depende del servicio, el plan, la región y la cuenta; en cuentas de empresa, el administrador decide cuáles hay. |
 | Creador de skills | Solo en la app de escritorio, en **Work**: escribir `@skill-creator` en el chat. | En la web y el móvil no se pueden crear ni usar skills sueltas; solo las que vienen dentro de un plugin instalado. |
@@ -31,6 +32,7 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, 
 ## Codex (app, CLI y extensión del IDE)
 | Qué | Ruta | Notas |
 |---|---|---|
+| Reglas básicas | App: **Settings** → **Personalization** → **Custom instructions** (edita el fichero de abajo). CLI y extensión: el fichero `AGENTS.md` de la carpeta `.codex` de su carpeta personal. | Si existe `AGENTS.override.md` en esa carpeta, se lee ese en su lugar. Codex deja de leer instrucciones cuando el total (globales y de cada carpeta) llega a 32 KiB, unos 32.000 caracteres. |
 | Creador de skills | Escribir `$skill-creator` en el chat. | Viene incluido con Codex. |
 | Guardar una skill | Carpeta `.agents/skills` de su carpeta personal (una carpeta por skill con su `SKILL.md`). | Codex detecta los cambios solo; si no aparece, reiniciar Codex. |
 | Plugins oficiales | App: **Plugins** (apartado de curados por OpenAI). CLI: `/plugins`. | |
@@ -56,3 +58,7 @@ Sin rutas revisadas todavía. Usa la ayuda oficial de la herramienta si puedes c
 - ChatGPT y Codex, Record & Replay: https://learn.chatgpt.com/docs/extend/record-and-replay
 - ChatGPT, plugins: https://help.openai.com/en/articles/20001256
 - Codex, plugins: https://developers.openai.com/codex/plugins
+- Codex, instrucciones con AGENTS.md: https://developers.openai.com/codex/guides/agents-md
+- Codex, ajustes de la app (personalización): https://developers.openai.com/codex/app/settings
+- Claude, instrucciones globales de Cowork: https://support.claude.com/en/articles/13345190
+- ChatGPT, instrucciones del escritorio frente a las de la cuenta (aviso de usuarios): https://github.com/openai/codex/issues/33792

@@ -3,7 +3,7 @@
 Plugins para empezar a usar la IA en tu día a día y tu trabajo, **con la herramienta que prefieras** (Claude, ChatGPT/Codex…).
 
 ## Coach IA
-Te guía paso a paso: deja tu IA configurada (tus reglas, un proyecto y tus servicios conectados) y te ayuda a crear tu primera skill para una tarea repetitiva de tu trabajo. No necesitas conocimientos técnicos y nunca te pedirá contraseñas en el chat.
+Te guía paso a paso: deja tu IA configurada (tus reglas, un proyecto y tus servicios conectados) y te enseña a automatizar una tarea que repites en tu trabajo. No necesitas conocimientos técnicos y nunca te pedirá contraseñas en el chat.
 
 ### Cómo empezar
 Abre tu herramienta de IA y escribe:
