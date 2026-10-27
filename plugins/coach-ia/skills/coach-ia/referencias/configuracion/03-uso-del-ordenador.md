@@ -16,7 +16,7 @@
 | Herramienta | Uso del ordenador |
 |---|---|
 | Claude, app de escritorio (Mac o Windows), planes Pro o Max | Sí |
-| ChatGPT, app de escritorio (Mac o Windows), en Work, y la app de Codex | Sí, con el plugin Computer Use |
+| ChatGPT, app de escritorio (Mac o Windows), y la app de Codex | Sí |
 | Web, móvil y herramientas de terminal | No |
 | Otras herramientas | Según la herramienta; si no lo sabes, dilo |
 

@@ -57,7 +57,7 @@ Cuando tengas que escribir en su ordenador y puedas ejecutar órdenes, usa el sc
 El script guarda una copia de lo anterior, escribe, relee y comprueba, y responde con un estado: `ok`, `sin_permiso` o `error`. Si no puedes ejecutar el script (por ejemplo, no hay Python), hazlo con tu herramienta de editar ficheros siguiendo los mismos pasos: copia de lo anterior, escribir, releer y comprobar.
 
 1. **Inténtalo siempre**, aunque creas que no tienes permiso: muchas apps piden la aprobación en ese momento. Si aparece una petición de aprobación, dile en una frase que la acepte.
-2. **Si falla por permisos** (`sin_permiso`), dile exactamente qué hacer y vuelve a intentarlo: en ChatGPT y Codex, aprobar la petición o, si no aparece, dar a esta conversación acceso completo en el selector de permisos (en inglés, "Full access"); en Claude, permitir el acceso a la carpeta o a la acción cuando se lo pida.
+2. **Si falla por permisos** (`sin_permiso`), dile exactamente qué hacer y vuelve a intentarlo: en ChatGPT y Codex, aprobar la petición o, si no aparece, elegir **Acceso completo** en el selector de permisos que hay debajo del cuadro de texto (si no aparece esa opción, se habilita en Configuración → General → Permisos); en Claude, permitir el acceso a la carpeta o a la acción cuando se lo pida.
 3. **Solo si aun así no se puede**, usa la vía de la app que lo guarda por sí misma (para sus reglas, la pantalla de instrucciones; para una tarea, su creador de tareas) y, si tampoco funciona, apúntalo como pendiente.
 4. **Confírmale en llano** dónde ha quedado y que lo has comprobado. No menciones el script ni la copia de seguridad salvo que pregunte.
 
