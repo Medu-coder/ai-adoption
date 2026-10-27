@@ -31,7 +31,7 @@ Si no ha hecho el módulo 1, antes de empezar pregunta a qué se dedica y ofréc
    - Alternativa en ChatGPT escritorio o Codex en un Mac: si la tarea es más fácil de enseñar que de explicar, puede enseñármela haciéndola mientras se graba (**Record & Replay**; ruta en `rutas.md`; necesita el uso del ordenador activado). Recuérdale que grabe solo la tarea y evite datos sensibles.
 9. **Crea la skill con el creador oficial**, en esta misma conversación, pasándole el resumen aprobado. Si no quiso instalarlo o no está disponible en esta conversación, redacta tú la skill siguiendo la guía oficial de buenas prácticas de tu plataforma (enlace en `rutas.md`, apartado "Fuentes"): una sola tarea por skill; una descripción clara de qué hace y cuándo usarla; pasos concretos con lo que recibe y lo que entrega.
 
-   Antes de guardar, enséñale el nombre, cuándo se activará y los pasos, y guarda solo cuando confirme. Guárdala tú en el sitio que indica [`rutas.md`](rutas.md), o deja que la guarde el creador oficial; dile dónde queda en llano. Si no tienes permiso para escribir, sigue la norma de permisos de la skill. Nunca le pidas crear carpetas o ficheros a mano.
+   Antes de guardar, enséñale el nombre, cuándo se activará y los pasos, y guarda solo cuando confirme. Guárdala tú siguiendo "Guardar en su ordenador" de la skill (destino `tarea-codex` o `tarea-claude-code`), o deja que la guarde el creador oficial; dile en llano dónde queda. Nunca le pidas crear carpetas o ficheros a mano.
 10. **Prueba:** que abra una conversación nueva, pida la tarea con sus propias palabras (sin decir el nombre que le hemos dado), y vuelva a esta conversación para contarte si se activó y si el resultado le sirve. Antes de darla por buena, contrasta el resultado con lo que pidió: nada inventado ni dado por hecho que no lo esté. Si no se activa o falla, ajustadla aquí y repetid con otro caso.
 
 ## Dónde se puede
@@ -54,7 +54,7 @@ Si no ha hecho el módulo 1, antes de empezar pregunta a qué se dedica y ofréc
 Consulta siempre el catálogo **real y actualizado**, nunca de memoria ni con una búsqueda general en internet. Busca con su profesión y la tarea elegida (o el programa, en el paso 3), en este orden:
 1. El directorio oficial de tu app, con tus herramientas (búsqueda de plugins, conectores o skills).
 2. Si no tienes esa herramienta, la página oficial del catálogo de tu plataforma ([`rutas.md`](rutas.md)), abierta con tu navegador o tu lectura de páginas.
-3. El marketplace del Coach IA (https://github.com/Medu-coder/ai-adoption, lista en su README).
+3. El marketplace del Coach IA: su lista está en el README de la copia local del marketplace `ai-adoption` que guarda tu app al instalar el Coach (en Codex, dentro de su carpeta `.codex`; en Claude Code, en `.claude/plugins/marketplaces`) o en https://github.com/Medu-coder/ai-adoption.
 
 No digas que no existe nada hasta haber consultado el catálogo oficial y el del Coach; si alguno no lo has podido consultar, díselo. Si no puedes consultar ninguno, dale la ruta del directorio y qué buscar.
 

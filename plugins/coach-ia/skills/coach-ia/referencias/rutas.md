@@ -34,6 +34,7 @@ Dónde está cada cosa en los menús. **Revisado el 26/10/2026 (tarde); skills, 
 | Qué | Ruta | Notas |
 |---|---|---|
 | Reglas básicas | App: **Settings** → **Personalization** → **Custom instructions** (edita el fichero de abajo). CLI y extensión: el fichero `AGENTS.md` de la carpeta `.codex` de su carpeta personal. | Si existe `AGENTS.override.md` en esa carpeta, se lee ese en su lugar. Codex deja de leer instrucciones cuando el total (globales y de cada carpeta) llega a 32 KiB por defecto (es configurable). |
+| Permisos para guardar | En el modo habitual (**Auto**), Codex pide aprobación para escribir fuera de la carpeta de trabajo, por ejemplo en la carpeta `.codex`. Si la petición no aparece, dar a la conversación acceso completo (**Full access**) en el selector de permisos. | En la terminal, `/permissions`. El nombre exacto del selector en la app de escritorio está pendiente de verificar. |
 | Creador de skills | Escribir `$skill-creator` en el chat. | Viene incluido con Codex. |
 | Guardar una skill | Carpeta `.agents/skills` de su carpeta personal (una carpeta por skill con su `SKILL.md`). No es `.codex/skills`. | Codex detecta los cambios solo; si no aparece, reiniciar Codex. |
 | Plugins oficiales | App: **Plugins** (apartado de curados por OpenAI). CLI: `/plugins`. | |

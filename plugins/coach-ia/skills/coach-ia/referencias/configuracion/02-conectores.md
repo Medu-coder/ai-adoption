@@ -9,7 +9,7 @@
 2. Si no usa nada de esa categoría o no quiere conectarlo, sáltala sin insistir.
 3. **Ofrece el conector** de la forma más directa posible (ver abajo).
 4. **Espera** a que confirme que ha iniciado sesión y dado permiso.
-5. **Comprueba** con la prueba de la tabla: revisa primero que tienes la herramienta necesaria en esta sesión. Si está disponible, avísale de qué vas a consultar y hazlo, sin pedir otra confirmación. Si no está disponible o falla justo después de conectar, puede hacer falta una conversación nueva para que el conector esté disponible; explícaselo y pídele que haga la prueba allí y vuelva a esta conversación para seguir. Si sigue sin estar disponible o falla, apúntalo como pendiente. No afirmes que has leído datos ni marques el servicio como conectado y verificado sin una prueba satisfactoria.
+5. **Comprueba** con la prueba de la tabla: revisa primero que tienes la herramienta necesaria en esta sesión. Si está disponible, di en la misma frase qué vas a consultar y hazlo; no preguntes si quiere la prueba. Si no está disponible o falla justo después de conectar, puede hacer falta una conversación nueva para que el conector esté disponible; explícaselo y pídele que haga la prueba allí y vuelva a esta conversación para seguir. Si sigue sin estar disponible o falla, apúntalo como pendiente. No afirmes que has leído datos ni marques el servicio como conectado y verificado sin una prueba satisfactoria.
 
 | # | Categoría | Opciones habituales | Prueba inofensiva |
 |---|---|---|---|

@@ -28,7 +28,7 @@ Si su herramienta no permite ninguna de las dos primeras, díselo y ofrece la te
 **Primera clasificación, sin abrir ningún chat:**
 1. Mira solo la lista de chats (nombres y grupos), sin entrar en ninguno.
 2. Propón una clasificación por los nombres: trabajo, personal o por clasificar si dudas.
-3. Enséñasela, que corrija lo que haga falta y, cuando la apruebe, guárdala en el archivo (pide confirmación antes de crearlo).
+3. Enséñasela en llano tal como quedará, que corrija lo que haga falta y, cuando la apruebe, guárdala en el archivo (siguiendo "Guardar en su ordenador" de la skill, destino `fichero`). Hazlo así también si te da los nombres directamente o te pide que la crees.
 
 **Formato del archivo:**
 ```markdown

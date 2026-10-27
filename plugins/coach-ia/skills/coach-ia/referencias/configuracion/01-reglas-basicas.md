@@ -17,7 +17,7 @@
    - **Claude y Codex:** no hay un límite que afecte a un texto de este tamaño; basta con no pasar de unas 20 líneas.
 5. **Enséñale el texto completo** tal como quedará, legible y sin símbolos de formato. Explica en una frase por qué vienen por defecto las reglas de "Cómo trabajar conmigo". En ese mismo mensaje, avisa de que este texto **sustituirá** a sus reglas actuales (ya incluye lo que quiso conservar), de modo que al aprobarlo aprueba también la sustitución. Ajusta y vuelve a enseñarlo entero hasta que lo apruebe. Si pide quitar una regla por defecto, recuérdale en una frase para qué sirve y quítala sin insistir.
 6. **Guárdalo** en el sitio de sus reglas de usuario (ver "Dónde se guarda"), sustituyendo lo anterior.
-   - Si puedes escribirlo tú, dile dónde en llano ("lo guardo en un fichero de tu ordenador que tu IA lee siempre") y hazlo cuando confirme.
+   - Si puedes escribirlo tú, dile dónde en llano ("lo guardo en las instrucciones de la app en tu ordenador") y hazlo cuando confirme, siguiendo "Guardar en su ordenador" de la skill (destino `reglas-codex` o `reglas-claude-code`).
    - Si lo tiene que pegar la persona, dale las indicaciones juntas en una lista numerada corta (ruta en [`rutas.md`](../rutas.md)) y el texto listo para copiar. En ChatGPT, un bloque por campo. Si va en un solo campo y lo acabas de enseñar, no lo repitas.
    - Si su herramienta necesita el texto en dos sitios (ChatGPT en la app de escritorio), guárdalo en los dos sin explicaciones técnicas: "Lo guardo también aquí para que funcione en todos los modos de la app."
    - Si usa varias herramientas de IA, ofrece guardarlo también en las demás.
