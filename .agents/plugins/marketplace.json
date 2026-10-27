@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "coach-ia",
+      "name": "ai-onboarding",
       "source": {
         "source": "local",
-        "path": "./plugins/coach-ia"
+        "path": "./plugins/ai-onboarding"
       },
       "policy": {
         "installation": "AVAILABLE",

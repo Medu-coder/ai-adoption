@@ -1,4 +1,4 @@
-# Compatibilidad de Coach IA con OpenAI
+# Compatibilidad de AI Onboarding con OpenAI
 
 Revisión: 26/10/2026. Versión del plugin: **0.1.5**.
 
@@ -7,7 +7,7 @@ Revisión: 26/10/2026. Versión del plugin: **0.1.5**.
 La instalación, habilitación y detección de la skill pasan con **Codex CLI
 0.137.0**, tanto desde el marketplace nativo de OpenAI como desde una copia
 que solo contiene el marketplace compatible con Claude. El motor devuelve
-`coach-ia:coach-ia` habilitada y sin errores de carga del plugin.
+`ai-onboarding:ai-onboarding` habilitada y sin errores de carga del plugin.
 
 Esto acredita compatibilidad de paquete y carga en Codex. **No acredita una
 prueba de extremo a extremo en la interfaz de ChatGPT**, ni la conexión real
@@ -22,7 +22,7 @@ validado en el manifiesto, sin comprobación visual en el directorio.
   ChatGPT; si no se conoce el plan, se usa el límite de 1.500 caracteres.
 - Nota corregida sobre aplicación inmediata de las instrucciones personales.
 - Diferenciación entre instalar desde el directorio de ChatGPT web, importar
-  este marketplace de GitHub y usar el Coach sin instalación; móvil separado.
+  este marketplace de GitHub y usar AI Onboarding sin instalación; móvil separado.
 - El arranque pregunta únicamente los datos que faltan.
 - Un conector sin herramienta o sin prueba satisfactoria queda pendiente de
   verificación; no se afirma lectura ni conexión verificada.
@@ -56,7 +56,7 @@ de todos los archivos y la carga real con `skills/list` del app-server.
   virtual. `HOME` no se cambia: el app-server puede descubrir metadatos de
   skills personales en modo lectura. No se ejecutan esas skills ni se envía
   su contenido a un modelo. Los errores ajenos al plugin no se cuentan como
-  errores del Coach.
+  errores de AI Onboarding.
 
 ## Simulación conversacional independiente
 

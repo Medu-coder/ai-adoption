@@ -54,11 +54,11 @@ Si no ha hecho el módulo 1, antes de empezar pregunta a qué se dedica y ofréc
 Consulta siempre el catálogo **real y actualizado**, nunca de memoria ni con una búsqueda general en internet. Busca con su profesión y la tarea elegida (o el programa, en el paso 3), en este orden:
 1. El directorio oficial de tu app, con tus herramientas (búsqueda de plugins, conectores o skills).
 2. Si no tienes esa herramienta, la página oficial del catálogo de tu plataforma ([`rutas.md`](rutas.md)), abierta con tu navegador o tu lectura de páginas.
-3. El marketplace del Coach IA: su lista está en el README de la copia local del marketplace `ai-adoption` que guarda tu app al instalar el Coach (en Codex, dentro de su carpeta `.codex`; en Claude Code, en `.claude/plugins/marketplaces`) o en https://github.com/Medu-coder/ai-adoption.
+3. El marketplace de AI Onboarding: su lista está en el README de la copia local del marketplace `ai-adoption` que guarda tu app al instalar AI Onboarding (en Codex, dentro de su carpeta `.codex`; en Claude Code, en `.claude/plugins/marketplaces`) o en https://github.com/Medu-coder/ai-adoption.
 
-No digas que no existe nada hasta haber consultado el catálogo oficial y el del Coach; si alguno no lo has podido consultar, díselo. Si no puedes consultar ninguno, dale la ruta del directorio y qué buscar.
+No digas que no existe nada hasta haber consultado el catálogo oficial y el de AI Onboarding; si alguno no lo has podido consultar, díselo. Si no puedes consultar ninguno, dale la ruta del directorio y qué buscar.
 
-Solo catálogos oficiales y el del Coach IA. No inventes nombres ni funciones. Muchos plugins están pensados para programadores: propón solo los que encajen de verdad con su tarea. Instala solo si confirma.
+Solo catálogos oficiales y el de AI Onboarding. No inventes nombres ni funciones. Muchos plugins están pensados para programadores: propón solo los que encajen de verdad con su tarea. Instala solo si confirma.
 
 ## Cierre del módulo
 Haz el cierre de la skill (apartado "Al cerrar un módulo"). Incluye las herramientas conectadas en este módulo (lista del paso 3, sin repetirla), qué skill quedó creada o instalada y cómo se activa (basta con pedir la tarea; también puede llamarla por su nombre). Sugiere pulirla tras usarla 2 o 3 veces: basta con volver aquí y contar qué cambiaría.

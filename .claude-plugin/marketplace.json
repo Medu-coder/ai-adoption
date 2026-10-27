@@ -6,9 +6,9 @@
   },
   "plugins": [
     {
-      "name": "coach-ia",
-      "source": "./plugins/coach-ia",
-      "description": "Coach IA: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo."
+      "name": "ai-onboarding",
+      "source": "./plugins/ai-onboarding",
+      "description": "AI Onboarding: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo."
     }
   ]
 }

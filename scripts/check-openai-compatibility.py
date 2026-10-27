@@ -20,7 +20,7 @@ import tomllib
 
 
 REPO = Path(__file__).resolve().parents[1]
-PLUGIN = REPO / "plugins/coach-ia"
+PLUGIN = REPO / "plugins/ai-onboarding"
 
 
 def digest(path):
@@ -75,7 +75,7 @@ def discovered_skills(env, cwd):
 
     try:
         initialized = request(1, "initialize", {
-            "clientInfo": {"name": "coach-isolated-check", "version": "0.1.0"},
+            "clientInfo": {"name": "ai-onboarding-isolated-check", "version": "0.1.0"},
             "capabilities": {"experimentalApi": True}})
         assert Path(initialized["codexHome"]).resolve() == Path(env["CODEX_HOME"]).resolve()
         proc.stdin.write('{"method":"initialized"}\n')
@@ -92,7 +92,7 @@ def main():
         manifest = json.loads((PLUGIN / "plugin.json").read_text())
         claude = json.loads((PLUGIN / ".claude-plugin/plugin.json").read_text())
         assert manifest["$schema"] == "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
-        assert manifest["name"] == claude["name"] == "coach-ia"
+        assert manifest["name"] == claude["name"] == "ai-onboarding"
         assert manifest["version"] == claude["version"]
         assert re.fullmatch(r"\d+\.\d+\.\d+", manifest["version"])
         interface = manifest["extensions"]["com.openai"]["interface"]
@@ -117,7 +117,7 @@ def main():
         print("PASS: manifests, YAML frontmatter and contained reference links")
 
         # Both native and Claude-only marketplace discovery are exercised.
-        with tempfile.TemporaryDirectory(prefix="coach-ia-isolated-") as directory:
+        with tempfile.TemporaryDirectory(prefix="ai-onboarding-isolated-") as directory:
             root = Path(directory).resolve()
             for catalog in ["native", "claude-compatible"]:
                 case = root / catalog
@@ -125,7 +125,7 @@ def main():
                 source.mkdir(parents=True)
                 profile.mkdir()
                 work.mkdir()
-                shutil.copytree(PLUGIN, source / "plugins/coach-ia")
+                shutil.copytree(PLUGIN, source / "plugins/ai-onboarding")
                 catalog_path = ".agents/plugins" if catalog == "native" else ".claude-plugin"
                 (source / catalog_path).mkdir(parents=True)
                 shutil.copy2(REPO / catalog_path / "marketplace.json", source / catalog_path)
@@ -140,16 +140,16 @@ def main():
                 available = json.loads(command(["codex", "plugin", "list", "--available", "--json"], env, work))
                 assert len(available["available"]) == 1
                 assert available["available"][0]["version"] == manifest["version"]
-                command(["codex", "plugin", "add", "coach-ia@ai-adoption"], env, work)
+                command(["codex", "plugin", "add", "ai-onboarding@ai-adoption"], env, work)
                 installed = json.loads(command(["codex", "plugin", "list", "--json"], env, work))["installed"]
                 assert len(installed) == 1 and installed[0]["enabled"]
-                cached = profile / "plugins/cache/ai-adoption/coach-ia" / manifest["version"]
+                cached = profile / "plugins/cache/ai-adoption/ai-onboarding" / manifest["version"]
                 for file in PLUGIN.rglob("*"):
                     if file.is_file():
                         assert digest(file) == digest(cached / file.relative_to(PLUGIN))
                 loaded = discovered_skills(env, work)
                 matches = [s for entry in loaded["data"] for s in entry["skills"]
-                           if s["name"] == "coach-ia:coach-ia"]
+                           if s["name"] == "ai-onboarding:ai-onboarding"]
                 assert len(matches) == 1 and matches[0]["enabled"]
                 assert Path(matches[0]["path"]).resolve().is_relative_to(cached)
                 errors = [e for entry in loaded["data"] for e in entry["errors"]
