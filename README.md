@@ -19,8 +19,6 @@ Si prefieres instalarlo tú:
 
 ChatGPT web permite instalar plugins del directorio, pero eso no añade automáticamente este marketplace de GitHub a una cuenta personal. En un workspace, su administrador puede importar el marketplace para el equipo. En el móvil se pueden usar los plugins ya disponibles en tu cuenta, pero este marketplace se añade desde la app de escritorio.
 
-El repositorio mantiene un único AI Onboarding compartido: un manifiesto portable `plugins/ai-onboarding/plugin.json`, un marketplace nativo de OpenAI en `.agents/plugins/marketplace.json` y los manifiestos de compatibilidad de Claude. No hace falta duplicar sus instrucciones.
-
 ### Qué puedes decirle
 No hace falta aprender nada: escribe lo que necesitas con tus palabras. Por ejemplo:
 - «Quiero empezar con AI Onboarding» o «Configúrame»: la configuración guiada, paso a paso.
@@ -39,8 +37,6 @@ Al terminar, te deja unas frases listas para el día a día, como «¿Qué tengo
 |---|---|---|
 | `ai-onboarding` | Cualquiera | Configuración guiada y primera skill para usar la IA en el trabajo |
 
-## Compatibilidad y pruebas
-
-La instalación se probó con la versión 0.1.5 en Codex CLI, en perfiles temporales, tanto con el marketplace nativo de OpenAI como con el compatible con Claude. Consulta [el alcance, los límites y cómo repetir la prueba](docs/compatibilidad-openai.md). La interfaz de ChatGPT todavía no se ha probado de extremo a extremo.
+## Tus datos
 
 Todo es público y genérico: aquí no hay datos de nadie, y el kit no recoge ni envía tus datos a ningún servidor propio. Tu herramienta de IA y los servicios que conectes tratan tus datos según sus propias condiciones.
