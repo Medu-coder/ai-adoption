@@ -4,7 +4,7 @@
 
 ## Recorrido
 1. **Comprueba si es posible** en su caso (ver "Dónde se puede") y si ya lo tienes en esta sesión (puedes ver la pantalla o usar sus apps). Si no es posible, sáltalo sin mencionarlo y pasa al paso siguiente. Si ya funciona, no lo actives de nuevo: haz solo la prueba.
-2. **Ofrécelo:** "También puedo usar los programas de tu ordenador como si fuera tú: abrirlos, leer y hacer clic. Así puedo ayudarte con programas a los que no llego de otra forma. Tú eliges cuáles; te pediré permiso la primera vez que use cada una. ¿Lo activamos?" Si no quiere, sigue sin insistir.
+2. **Ofrécelo:** "También puedo usar los programas de tu ordenador como si fuera tú: abrirlos, leer y hacer clic. Así puedo ayudarte con programas a los que no llego de otra forma. Tú eliges cuáles; te pediré permiso la primera vez que use cada uno. ¿Lo activamos?" Si no quiere, sigue sin insistir.
 3. **Actívalo** con la ruta de [`rutas.md`](../rutas.md), en este orden: la función en la app (en ChatGPT y Codex, instalar o activar su complemento de uso del ordenador); los permisos del sistema (en Mac, grabación de pantalla y accesibilidad, que son necesarios); y qué apps puede usar (en ChatGPT la opción se llama «Cualquier aplicación», pero pedirá permiso para cada una y puede bloquear las que no quiera). Añade solo lo práctico: la app de la IA tiene que estar abierta para que funcione. Si en su cuenta de empresa está desactivado, apúntalo como pendiente sin insistir.
 4. **Comprueba**, avisándole antes de lo que vas a hacer:
    - **Mac:** abre la Calculadora y dile qué ves.

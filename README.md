@@ -10,14 +10,14 @@ Abre tu herramienta de IA y escribe:
 
 > Lee https://github.com/Medu-coder/ai-adoption (empieza por su AGENTS.md) y ayúdame a configurarme.
 
-El asistente te preguntará qué herramienta usas y te guiará para instalar AI Onboarding (en Claude con plan de pago y en la app de escritorio de ChatGPT/Codex). AI Onboarding necesita estar instalado: si tu herramienta no lo permite, el asistente te dirá qué opciones tienes.
+El asistente te preguntará qué herramienta usas y te guiará para instalar AI Onboarding (en Claude con plan de pago, en Claude Code y en la app de escritorio de ChatGPT/Codex). AI Onboarding necesita estar instalado: si tu herramienta no lo permite, el asistente te dirá qué opciones tienes.
 
 Si prefieres instalarlo tú:
 - **Claude** (plan de pago): Customize → Plugins → Add marketplace → `Medu-coder/ai-adoption` → instalar **AI Onboarding** → activar **Sync automatically** para recibir mejoras.
 - **Claude Code:** `/plugin install ai-onboarding --marketplace Medu-coder/ai-adoption`
 - **ChatGPT / Codex (app de escritorio):** menú **ChatGPT** → **Configuración** → **Complementos** → **Añadir** → **Añadir un marketplace** → `Medu-coder/ai-adoption`; después instala **AI Onboarding**. Para recibir mejoras: pestaña **Tienda** → **Actualizar**. También por terminal: `codex plugin marketplace add Medu-coder/ai-adoption`.
 
-ChatGPT web permite instalar plugins del directorio, pero eso no añade automáticamente este marketplace de GitHub a una cuenta personal. En un workspace, su administrador puede importar el marketplace para el equipo. En el móvil se pueden usar los plugins ya disponibles en tu cuenta, pero este marketplace se añade desde la app de escritorio.
+ChatGPT web permite instalar plugins del directorio, pero eso no añade automáticamente este marketplace de GitHub a una cuenta personal. En un espacio de empresa, su administrador puede importar el marketplace para el equipo. En el móvil se pueden usar los plugins ya disponibles en tu cuenta, pero este marketplace se añade desde la app de escritorio.
 
 ### Qué puedes decirle
 No hace falta aprender nada: escribe lo que necesitas con tus palabras. Por ejemplo:
@@ -35,7 +35,7 @@ Al terminar, te deja unas frases listas para el día a día, como «¿Qué tengo
 ## Plugins disponibles
 | Plugin | Para quién | Qué hace |
 |---|---|---|
-| `ai-onboarding` | Cualquiera | Configuración guiada y primera skill para usar la IA en el trabajo |
+| `ai-onboarding` | Cualquiera | Configuración guiada y automatizar tu primera tarea para usar la IA en el trabajo |
 
 ## Tus datos
 

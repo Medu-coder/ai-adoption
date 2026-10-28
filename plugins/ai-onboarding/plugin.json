@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-onboarding",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "AI Onboarding: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo, con la herramienta que prefieras.",
   "author": {
     "name": "Medu-coder"
@@ -20,7 +20,7 @@
       "interface": {
         "displayName": "AI Onboarding",
         "shortDescription": "Empieza a usar la IA",
-        "longDescription": "Te acompaña paso a paso para configurar tus reglas personales, organizar un proyecto opcional, conectar los servicios que uses y crear tu primera skill para una tarea repetitiva, según las capacidades de tu herramienta de IA.",
+        "longDescription": "Te acompaña paso a paso para que tu IA sepa quién eres y cómo te gusta trabajar, pueda consultar tu correo, agenda y archivos, usar los programas de tu ordenador y WhatsApp, y aprenda a hacer por ti una tarea que repites, según lo que permita tu herramienta de IA.",
         "developerName": "Medu-coder",
         "category": "Productivity",
         "defaultPrompt": "Quiero empezar con AI Onboarding."

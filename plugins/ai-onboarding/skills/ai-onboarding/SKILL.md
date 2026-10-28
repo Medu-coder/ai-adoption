@@ -1,6 +1,6 @@
 ---
 name: ai-onboarding
-description: AI Onboarding. Guía paso a paso a una persona sin conocimientos técnicos para empezar a usar la IA en su día a día y su trabajo, configurando su herramienta de IA (reglas básicas, acceso a sus servicios, uso del ordenador, apps como WhatsApp y proyectos) y creando su primera skill para una tarea repetitiva. Úsala cuando la persona quiera empezar a usar la IA, configurar su herramienta de IA (Claude, ChatGPT…), automatizar su primera tarea o pida "AI Onboarding", o diga cosas como "quiero empezar", "configúrame", "ayúdame a empezar con la IA" o "es mi primera vez con la IA". No la uses para revisar, auditar, depurar o programar plugins, skills o configuraciones técnicas, ni para mantener esta propia guía.
+description: AI Onboarding. Guía paso a paso a una persona sin conocimientos técnicos para empezar a usar la IA en su día a día y su trabajo, configurando su herramienta de IA (reglas básicas, acceso a sus servicios, uso del ordenador, apps como WhatsApp y proyectos) y creando su primera skill para una tarea repetitiva. Úsala cuando la persona quiera empezar a usar la IA, configurar su herramienta de IA (Claude, ChatGPT…), automatizar su primera tarea o pida "AI Onboarding", o diga cosas como "quiero empezar", "configúrame", "ayúdame a empezar con la IA", "es mi primera vez con la IA", o quiera retomar AI Onboarding ("¿por dónde lo dejamos?"). No la uses para revisar, auditar, depurar o programar plugins, skills o configuraciones técnicas, ni para mantener esta propia guía.
 ---
 
 # AI Onboarding
