@@ -16,14 +16,13 @@
    - **ChatGPT:** reparte el texto en sus campos (ver "Dónde se guarda"). Comprueba la longitud de las instrucciones personalizadas (incluidos espacios y saltos de línea): máximo 1.500 caracteres en Free/Go y 5.000 en Plus/Pro/Business/Enterprise/Education. Si no sabes el plan, prepara una versión de hasta 1.500. Si la pantalla muestra otro límite, respétalo. Acorta y vuelve a contar antes de enseñarle el texto.
    - **Claude y Codex:** no hay un límite que afecte a un texto de este tamaño; basta con no pasar de unas 20 líneas.
 5. **Enséñale el texto completo** tal como quedará, legible y sin símbolos de formato. Explica en una frase por qué vienen por defecto las reglas de "Cómo trabajar conmigo". En ese mismo mensaje, avisa de que este texto **sustituirá** a sus reglas actuales (ya incluye lo que quiso conservar), de modo que al aprobarlo aprueba también la sustitución. Ajusta y vuelve a enseñarlo entero hasta que lo apruebe. Si pide quitar una regla por defecto, recuérdale en una frase para qué sirve y quítala sin insistir.
-6. **Guárdalo** en el sitio de sus reglas de usuario (ver "Dónde se guarda"), sustituyendo lo anterior.
-   - Si puedes escribirlo tú, dile dónde en llano ("lo guardo en las instrucciones de la app en tu ordenador") y hazlo cuando confirme, siguiendo "Guardar en su ordenador" de la skill (destino `reglas-codex` o `reglas-claude-code`).
-   - Si lo tiene que pegar la persona, dale las indicaciones juntas en una lista numerada corta (ruta en [`rutas.md`](../rutas.md)) y el texto listo para copiar. En ChatGPT, un bloque por campo. Si va en un solo campo y lo acabas de enseñar, no lo repitas.
+6. **Guárdalo** en el sitio de sus reglas de usuario (ver "Dónde se guarda"), sustituyendo lo anterior y siguiendo "Guardar" de la skill.
+   - Si puedes escribirlo tú (el fichero de su ordenador en Codex, la app de escritorio de ChatGPT o Claude Code), dile dónde en llano ("lo guardo en las instrucciones de la app en tu ordenador") y hazlo cuando confirme. Después comprueba que ha quedado igual que lo aprobado.
+   - Si lo tiene que pegar la persona, dale las indicaciones juntas en una lista numerada corta (ruta en [`rutas.md`](../rutas.md)) y el texto listo para copiar. En ChatGPT, un bloque por campo. Si va en un solo campo y lo acabas de enseñar, no lo repitas. Pídele que te avise cuando lo haya guardado; no lo des por guardado antes.
    - Si su herramienta necesita el texto en dos sitios (ChatGPT en la app de escritorio), guárdalo en los dos sin explicaciones técnicas: "Lo guardo también aquí para que funcione en todos los modos de la app."
-   - Si usa varias herramientas de IA, ofrece guardarlo también en las demás.
 7. **Cierre:** una línea con dónde han quedado las reglas y que puede pedirte cambiarlas cuando quiera.
 
-Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), ofrece actualizar estas reglas igual: enseñar el cambio, confirmar y guardar.
+Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), ofrece actualizar estas reglas igual: enseñar solo el cambio, confirmar y guardar.
 
 ## Plantilla
 ```text
@@ -63,5 +62,3 @@ Cuidado con
 | Otras (Cursor, Copilot…) | Reglas de usuario en su configuración o el fichero global de su documentación | Según la herramienta |
 
 Quien usa ChatGPT en la app de escritorio necesita el texto en los dos sitios: el de la cuenta (para el chat; se edita en la web, porque la app de escritorio no tiene esos campos) y el del ordenador (para Work y Codex). El del ordenador no se copia a otros ordenadores: si usa otro, hay que guardarlo también allí.
-
-Si usa varias herramientas basadas en ficheros, mantén un único fichero original y haz que los demás lo carguen (en Claude Code, un `CLAUDE.md` con una línea `@` y la ruta del original).
