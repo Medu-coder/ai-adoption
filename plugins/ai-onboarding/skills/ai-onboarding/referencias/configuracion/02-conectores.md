@@ -5,7 +5,7 @@
 **Al empezar**, explícalo sin tecnicismos: "Ahora vamos a darme acceso a lo que usas a diario (tu correo, tu agenda, tus documentos), para que pueda consultarlo cuando me lo pidas. Lo vemos uno a uno y saltamos lo que no necesites." No uses la palabra "conector" con la persona.
 
 ## Recorrido (categoría a categoría, en el orden de la tabla)
-1. **Pregunta qué usa**, por su nombre de siempre. Ejemplo: "¿Qué correo usas: Gmail, Outlook u otro?"
+1. **Pregunta qué usa**, sin darle nombres de programas: que lo nombre la persona. Ejemplo: "¿Qué correo usas para trabajar?" Las opciones de la tabla son para que lo reconozcas tú; solo si duda, dale dos o tres como ejemplo, sin recomendar ninguno.
 2. Si no usa nada de esa categoría o no quiere conectarlo, sáltala sin insistir.
 3. **Ofrece el conector** de la forma más directa posible (ver abajo).
 4. **Espera** a que confirme que ha iniciado sesión y dado permiso.

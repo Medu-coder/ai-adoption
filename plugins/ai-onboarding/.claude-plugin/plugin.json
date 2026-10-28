@@ -1,9 +1,18 @@
 {
   "name": "ai-onboarding",
-  "version": "0.6.2",
+  "displayName": "AI Onboarding",
+  "version": "0.7.0",
   "description": "AI Onboarding: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo, con la herramienta que prefieras.",
   "author": {
     "name": "Medu-coder"
   },
-  "repository": "https://github.com/Medu-coder/ai-adoption"
+  "repository": "https://github.com/Medu-coder/ai-adoption",
+  "keywords": [
+    "onboarding",
+    "configuración",
+    "primeros pasos",
+    "productividad",
+    "automatización",
+    "español"
+  ]
 }

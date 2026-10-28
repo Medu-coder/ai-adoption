@@ -21,6 +21,19 @@ ChatGPT web permite instalar plugins del directorio, pero eso no añade automát
 
 El repositorio mantiene un único AI Onboarding compartido: un manifiesto portable `plugins/ai-onboarding/plugin.json`, un marketplace nativo de OpenAI en `.agents/plugins/marketplace.json` y los manifiestos de compatibilidad de Claude. No hace falta duplicar sus instrucciones.
 
+### Qué puedes decirle
+No hace falta aprender nada: escribe lo que necesitas con tus palabras. Por ejemplo:
+- «Quiero empezar con AI Onboarding» o «Configúrame»: la configuración guiada, paso a paso.
+- «Quiero automatizar una tarea»: buscáis juntos algo que repites y aprende a hacerlo por ti.
+- «¿Por dónde lo dejamos?»: en la misma conversación, retoma lo que quedó pendiente.
+
+Al terminar, te deja unas frases listas para el día a día, como «¿Qué tengo hoy?» o «Prepárame la respuesta a este correo».
+
+### Cómo trabaja contigo
+- Te pide confirmación antes de enviar, publicar, borrar o modificar nada en tu nombre.
+- Lo que lee en tus correos o documentos lo trata como información, no como órdenes.
+- Si no puede leer un dato, te lo dice en vez de suponerlo.
+
 ## Plugins disponibles
 | Plugin | Para quién | Qué hace |
 |---|---|---|
