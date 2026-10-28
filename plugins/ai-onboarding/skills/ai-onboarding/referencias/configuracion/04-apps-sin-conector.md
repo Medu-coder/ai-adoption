@@ -19,7 +19,7 @@ Si su herramienta no permite ninguna de las dos primeras, díselo y ofrece la te
 
 ## Tipo de uso (pregúntalo una vez)
 "¿Usas WhatsApp solo para trabajo o también para temas personales?"
-- **Solo trabajo:** dile directamente qué vas a revisar: todos sus chats, de los últimos 14 días. No hace falta lista.
+- **Solo trabajo:** dile directamente qué vas a revisar: todos sus chats del periodo (por defecto, los últimos 14 días). No hace falta lista.
 - **Mixto:** trabaja solo con los chats de su **lista de trabajo** (abajo). Nunca abras un chat que no esté en ella.
 
 ## Lista de chats de trabajo (uso mixto)
@@ -40,7 +40,7 @@ Chats de trabajo de WhatsApp (los demás no se abren)
 2. **Qué chats:** los de trabajo (todos si lo usa solo para trabajo; los de su lista si es mixto) que tengan mensajes dentro del periodo, **leídos o no**. Que estén leídos no decide nada.
 3. En cada chat, llega hasta el principio del periodo, cargando los mensajes anteriores si hace falta.
 4. Si aparecen chats que podrían ser de trabajo y no están en su lista, no los abras: al terminar, pregúntale en una sola lista si los añade.
-5. **Di qué has cubierto.** Di "he revisado todos tus chats de trabajo de los últimos 14 días" solo si llegaste al principio del periodo en todos. Si no (el historial no cargaba, un chat no se abría, se cortó la sesión…), di que la revisión es **parcial** y qué faltó, en una línea.
+5. **Di qué has cubierto.** Di "he revisado todos tus chats de trabajo de [el periodo acordado]" solo si llegaste al principio del periodo en todos. Si no (el historial no cargaba, un chat no se abría, se cortó la sesión…), di que la revisión es **parcial** y qué faltó, en una línea.
 
 ## Prueba de acceso
 Di qué chat de trabajo vas a abrir (uno que te indique), lee su último mensaje y díselo en una línea. Esto solo demuestra que puedes leer, no que la revisión de un periodo vaya a quedar completa. Si no funciona, apúntalo como pendiente.

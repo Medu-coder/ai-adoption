@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-onboarding",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "AI Onboarding: guía paso a paso para empezar a usar la IA en tu día a día y tu trabajo, con la herramienta que prefieras.",
   "author": { "name": "Medu-coder" },
   "repository": "https://github.com/Medu-coder/ai-adoption",
