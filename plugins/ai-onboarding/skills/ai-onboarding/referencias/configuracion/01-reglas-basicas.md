@@ -10,7 +10,7 @@
    - **Para qué te quiere:** "¿Qué tareas te ocupan más la semana?" y "¿Cuáles te gustaría quitarte de encima o hacer más rápido?". En las reglas solo entra una línea; el detalle se queda en esta conversación y sirve después (al darte acceso a sus programas y al automatizar una tarea) sin volver a preguntarlo.
    - **Cómo responderle:**
      - **Estilo, con ejemplo:** elige una pregunta sencilla y ficticia relacionada con su trabajo y enséñale dos respuestas cortas a esa misma pregunta: una breve y directa (la conclusión en dos o tres líneas) y otra más explicada (con pasos o una lista corta). Pregunta cuál se parece más a lo que le gusta, o si prefiere una mezcla.
-     - En el mismo mensaje o en el siguiente: idioma, si prefiere que le trates de tú o de usted, y si puedes usar las palabras propias de su profesión o prefiere que se lo expliques todo en llano.
+     - En el mensaje siguiente: idioma, si prefiere que le trates de tú o de usted, y si puedes usar las palabras propias de su profesión o prefiere que se lo expliques todo en llano.
      - Para terminar: "¿Hay algo de cómo responde la IA que te moleste o que no deba hacer nunca?" y "¿Hay información que deba tratar con especial cuidado? (por ejemplo, datos de tus clientes)".
    - **Si tiene prisa** (lo dice o contesta con prisa), redúcelo a tres preguntas en un mensaje, nunca menos: a qué se dedica, qué tareas quiere quitarse de encima y si prefiere respuestas breves o más explicadas. Lo demás queda con lo que ya tenga o con las reglas por defecto de la plantilla; dile que puede completarlo cuando quiera.
 4. **Redacta el texto** con la plantilla, sin pasar de unas 20 líneas. Integra lo que ya tenía y quiera conservar. Si algo coincide con una regla por defecto, fusiónalo en una línea. Quita los apartados que queden vacíos. No incluyas datos que no hagan falta para responderle bien: nombres de clientes o de otras personas, direcciones, cifras, salud.
@@ -20,7 +20,7 @@
 6. **Guárdalo** en el sitio de sus reglas de usuario (ver "Dónde se guarda"), sustituyendo lo anterior y siguiendo "Guardar" de la skill.
    - Si puedes escribirlo tú (el fichero de su ordenador en Codex, la app de escritorio de ChatGPT o Claude Code), dile dónde en llano ("lo guardo en las instrucciones de la app en tu ordenador") y hazlo cuando confirme. Después comprueba que ha quedado igual que lo aprobado.
    - Si lo tiene que pegar la persona, dale las indicaciones juntas en una lista numerada corta (ruta en [`rutas.md`](../rutas.md)) y el texto listo para copiar. En ChatGPT, un bloque por campo. Si va en un solo campo y lo acabas de enseñar, no lo repitas. Pídele que te avise cuando lo haya guardado; no lo des por guardado antes.
-   - Si su herramienta necesita el texto en dos sitios (ChatGPT en la app de escritorio), guárdalo en los dos sin explicaciones técnicas: "Lo guardo también aquí para que funcione en todos los modos de la app."
+   - Si su herramienta necesita el texto en dos sitios (ChatGPT en la app de escritorio), guárdalo en los dos sin explicaciones técnicas: "Lo guardo también aquí para que funcione en toda la app."
 7. **Cierre:** una línea con dónde han quedado las reglas y que puede pedirte cambiarlas cuando quiera.
 
 Si más adelante pide cambiar cómo quiere que trabajes ("sé más breve"…), ofrece actualizar estas reglas igual: enseñar solo el cambio, confirmar y guardar.
@@ -37,7 +37,7 @@ Mi trabajo
 - Uso la IA para [sus tareas principales, en una línea].
 
 Cómo quiero que me respondas
-- Idioma: [español]. Trátame de [tú / usted]. Tono: [cercano / formal / directo].
+- Idioma: [español]. Trátame de [tú / usted].
 - [Estilo elegido: breve y directo, primero la conclusión / más explicado, con pasos.]
 - [Puedes usar los términos de mi profesión / explícamelo todo en llano.]
 

@@ -88,7 +88,7 @@ Cada caso dice por qué importa y cómo suena mal y bien. Los ejemplos son ficti
 
 ✗ **Mal:** (pregunta por una receta) "Claro, para la paella necesitas…"
 
-✓ **Bien:** "Con eso no te ayudo aquí: me centro en que uses la IA en tu trabajo." Y vuelve al menú (o, si estabais a mitad de un paso, ofrece seguir donde lo dejasteis).
+✓ **Bien:** "Con eso no te ayudo aquí: me centro en que uses la IA en tu trabajo." Y vuelve a donde estabais ("¿Seguimos con tu agenda?"); si no estabais en ningún paso, al menú.
 
 ---
 
