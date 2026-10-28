@@ -1,6 +1,6 @@
 # Ejemplo: con prisa, un fallo, un rechazo y vuelta otro día
 
-Ejemplo ficticio. Muestra cómo seguir cuando no todo sale a la primera: versión corta del paso 1, un servicio que queda pendiente, un rechazo que no se vuelve a ofrecer y la vuelta a la misma conversación. Los pasos que no cambian respecto al recorrido completo se resumen entre corchetes.
+Ejemplo ficticio. Muestra cómo seguir cuando no todo sale a la primera: versión corta del paso 1, un servicio que queda pendiente, un rechazo que no se vuelve a ofrecer y la vuelta a la misma conversación. Lo que no cambia respecto al recorrido completo se resume entre corchetes.
 
 ## Situación
 - **Persona:** Sam, trabaja en una asesoría laboral. Poco tiempo.
@@ -13,11 +13,11 @@ Ejemplo ficticio. Muestra cómo seguir cuando no todo sale a la primera: versió
 
 *[Ya tiene la herramienta, el sitio y el plan: no se vuelven a preguntar. La IA comprueba qué tiene en esta sesión y que funciona en su ordenador.]*
 
-**IA:** Perfecto, vamos a lo esencial y lo demás lo completamos otro día. Tres preguntas rápidas: ¿a qué te dedicas? ¿Qué tareas te gustaría quitarte de encima? ¿Prefieres respuestas breves o más explicadas?
+**IA:** Vamos a lo esencial y lo demás lo completamos otro día. Yo guardo y compruebo lo que pueda; tú apruebas y pulsas donde te diga. Tres preguntas rápidas: ¿a qué te dedicas? ¿Qué tareas te gustaría quitarte de encima? ¿Prefieres respuestas breves o más explicadas?
 
 **Sam:** Asesoría laboral. Contestar consultas de clientes por correo. Breves.
 
-**IA:** Este es el texto de tus reglas, tal como quedará (lo demás va con las reglas por defecto; puedes completarlo cuando quieras):
+**IA:** Este es el texto de tus reglas, tal como quedará. Las de «Cómo trabajar conmigo» van por defecto para que no suponga nada sin preguntarte; lo demás puedes completarlo cuando quieras. Sustituirá a las reglas que tengas ahora.
 
 > Mis reglas
 >
@@ -39,19 +39,13 @@ Ejemplo ficticio. Muestra cómo seguir cuando no todo sale a la primera: versió
 
 **Sam:** Sí.
 
-*[La IA escribe el texto en las instrucciones de la app en el ordenador. La app pide aprobar la escritura; Sam la acepta. La IA lo relee y coincide.]*
+*[La IA lee las instrucciones de la app en el ordenador: están vacías. Escribe el texto; la app pide aprobar la escritura y Sam la acepta. La IA lo relee y coincide.]*
 
 **IA:** Guardado en las instrucciones de la app en tu ordenador. Para que funcione también en el chat normal, hay que pegarlo en tu cuenta, desde la web:
 1. Abre chatgpt.com e inicia sesión.
 2. **Configuración** → **Personalización** → activa **Habilitar personalización**.
-3. En **Ocupación**, escribe: Asesoría laboral.
-4. En **Más sobre ti**, pega:
-
-```text
-Uso la IA para contestar consultas de clientes por correo.
-```
-
-5. En **Instrucciones personalizadas**, pega:
+3. Si ya hay algo escrito en estos campos, dímelo antes de borrarlo.
+4. En **Instrucciones personalizadas**, pega:
 
 ```text
 Breve y directo, primero la conclusión.
@@ -60,11 +54,18 @@ Cuando uses información de internet, indica de dónde sale.
 Pídeme confirmación antes de enviar, publicar, borrar o modificar nada en mi nombre.
 ```
 
+5. En **Ocupación**, escribe: Asesoría laboral.
+6. En **Más sobre ti**, pega:
+
+```text
+Uso la IA para contestar consultas de clientes por correo.
+```
+
 Avísame cuando lo tengas.
 
-**Sam:** Hecho.
+**Sam:** Estaba vacío. Hecho.
 
-**IA:** Tus reglas, listas. Ahora, el acceso a tu correo; después, el cierre. ¿Qué correo usas para trabajar?
+**IA:** Tus reglas, guardadas en los dos sitios. Ahora, el acceso a tus servicios; después, unas opciones para tu ordenador y WhatsApp, y el cierre. ¿Qué correo usas para trabajar?
 
 **Sam:** Outlook.
 
@@ -72,17 +73,24 @@ Avísame cuando lo tengas.
 
 **Sam:** Me sale un error de mi empresa y no me deja.
 
-**IA:** Puede que tu empresa tenga que autorizarlo. Lo dejo pendiente y seguimos; cuando lo tengas, lo conectamos en un momento. ¿Usas alguna agenda o carpeta de documentos que quieras que pueda consultar?
+**IA:** Puede que tu empresa tenga que autorizarlo. Lo dejo pendiente y seguimos; cuando lo tengas, lo conectamos en un momento. ¿Qué agenda usas?
 
-**Sam:** No, de momento nada más.
+*[La IA pregunta una a una por agenda, documentos, notas, tareas, mensajería, reuniones y una carpeta del ordenador. Sam no quiere conectar ninguna por ahora.]*
 
-**IA:** Otra opción: puedo usar los programas de tu ordenador como si fuera tú, para ayudarte con los que no tienen otra forma de acceso. ¿Lo activamos?
+**IA:** Así queda:
+- Correo (Outlook): pendiente, tu empresa no dejó terminar el inicio de sesión
+
+Otra opción: puedo usar los programas de tu ordenador como si fuera tú, para ayudarte con los que no tienen otra forma de acceso. Tú eliges cuáles. ¿Lo activamos?
 
 **Sam:** No, prefiero que no.
 
 **IA:** Sin problema. ¿Usas WhatsApp (u otra app de mensajes) para tu trabajo?
 
 **Sam:** No.
+
+**IA:** ¿Quieres un espacio propio para algún tema de tu trabajo, con sus documentos a mano? En la app se llama «proyecto». O lo dejamos para más adelante.
+
+**Sam:** Más adelante.
 
 **IA:** Antes de cerrar: si me pegas una consulta de un cliente que tengas pendiente, te preparo la respuesta ahora.
 
@@ -94,9 +102,10 @@ Avísame cuando lo tengas.
 
 Me falta el convenio para darte la cifra; no la supongo. Esto puedes pedírmelo cuando quieras.
 
-Configuración terminada, con esto pendiente: el acceso a tu correo (Outlook), porque tu empresa no dejó terminar el inicio de sesión.
+Configuración terminada, con esto pendiente: el acceso a tu correo (Outlook).
 - Reglas: listas, en la app y en tu cuenta.
 - Uso del ordenador: no lo necesitas.
+- Proyecto: lo dejas para más adelante.
 
 A partir de ahora puedes pedirme:
 - «Prepárame la respuesta a esta consulta» (pegándome el correo)
@@ -108,7 +117,7 @@ Para seguir otro día, vuelve a esta misma conversación. Si quieres, guardo tam
 
 *[La IA le enseña el resumen que va a guardar, Sam lo confirma y queda en la memoria.]*
 
-**IA:** Guardado en la memoria. Cuando quieras, también puedo aprender a hacer por ti una tarea que repitas. ¿Empezamos ahora o lo dejamos para otro día?
+**IA:** Guardado en la memoria. Si quieres, ahora te ahorro tiempo con algo que hagas a menudo: buscamos una tarea que repites en tu trabajo y la aprendo a hacer por ti, siempre igual, sin que me la expliques cada vez. Antes veo a qué otros programas de tu trabajo puedo acceder. ¿Empezamos o lo dejamos para otro día?
 
 **Sam:** Otro día.
 
@@ -118,7 +127,7 @@ Para seguir otro día, vuelve a esta misma conversación. Si quieres, guardo tam
 
 **Sam:** Ya estoy aquí otra vez. Mi empresa ya ha autorizado Outlook.
 
-**IA:** Bien. Lo dejamos con el acceso a tu correo pendiente; lo terminamos ahora. Pulsa de nuevo «Conectar» en la opción de Outlook e inicia sesión.
+**IA:** Lo dejamos con el acceso a tu correo pendiente; lo terminamos ahora. Pulsa de nuevo «Conectar» en la opción de Outlook e inicia sesión.
 
 *[Sam lo conecta. La IA lee los asuntos de sus tres últimos correos y se los dice.]*
 
@@ -137,9 +146,9 @@ Para seguir otro día, vuelve a esta misma conversación. Si quieres, guardo tam
 *[Sigue el módulo 2.]*
 
 ## Criterios para darlo por bueno
-- [ ] No volvió a preguntar herramienta, sitio ni plan, que ya venían en el primer mensaje.
-- [ ] Con prisa, redujo el paso 1 a tres preguntas, no a menos, y dejó lo demás con las reglas por defecto.
-- [ ] Guardó las reglas en los dos sitios que usa la app de escritorio de ChatGPT, sin hablar de modos ni nombres técnicos, y releyó lo que escribió.
+- [ ] No volvió a preguntar herramienta, sitio ni plan, que ya venían en el primer mensaje, y dijo qué haría cada uno.
+- [ ] Con prisa, redujo el paso 1 a tres preguntas, no a menos, y dejó lo demás con las reglas por defecto. Los demás pasos se ofrecieron igual.
+- [ ] Avisó de que el texto sustituye a las reglas anteriores y guardó en los dos sitios que usa la app de escritorio de ChatGPT, sin nombres técnicos, releyendo lo que escribió.
 - [ ] El fallo de Outlook quedó como **pendiente** con su motivo, sin darlo por conectado.
 - [ ] Aceptó el no al uso del ordenador sin insistir y no lo volvió a ofrecer en el módulo 2.
 - [ ] Sin nada conectado, ofreció la primera ayuda con un texto pegado y no se inventó el dato que faltaba.
